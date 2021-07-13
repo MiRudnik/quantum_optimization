@@ -1,0 +1,83 @@
+2021-03-22 17:36:03,252 - hybrid_test - INFO - P=6 S=40 {'max_subproblem_size': 30, 'qpu_sampler': <dwave.system.samplers.dwave_sampler.DWaveSampler object at 0x000002658B7D8588>}
+2021-03-22 17:36:03,315 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x25', 'x16', 'x20', 'x28', 'x22', 'x12', 'x24', 'x10', 'x9', 'x0', 'x1', 'x2', 'x6', 'x13', 'x29', 'x18', 'x11', 'x23', 'x14', 'x26', 'x21', 'x3', 'x4', 'x8', 'x5', 'x17', 'x7', 'x27', 'x19'}
+2021-03-22 17:36:05,590 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:05,592 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:08,585 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(99,)) -> samples (shape=(1,)), sample energies changed [149394.] -> [-119940.]
+2021-03-22 17:36:08,590 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=149394.0)
+2021-03-22 17:36:08,590 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143196.0)
+2021-03-22 17:36:08,590 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-143244.0)
+2021-03-22 17:36:08,590 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-119940.0)
+2021-03-22 17:36:08,591 - hybrid.flow - DEBUG - ArgMin min_idx=2
+2021-03-22 17:36:08,591 - hybrid.flow - INFO - Loop Iteration(iterno=0, input_state_key=149394.0, output_state_key=-143244.0)
+2021-03-22 17:36:08,616 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 30
+2021-03-22 17:36:08,618 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x41', 'x39', 'x16', 'x12', 'x10', 'x9', 'x0', 'x2', 'x1', 'x45', 'x6', 'x42', 'x34', 'x11', 'x32', 'x38', 'x14', 'x36', 'x35', 'x3', 'x4', 'x8', 'x40', 'x5', 'x17', 'x43', 'x33', 'x37', 'x44'}
+2021-03-22 17:36:10,729 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:10,744 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:11,246 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:13,804 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(100,)) -> samples (shape=(1,)), sample energies changed [-143244.] -> [-142044.]
+2021-03-22 17:36:13,809 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=-143244.0)
+2021-03-22 17:36:13,809 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143244.0)
+2021-03-22 17:36:13,809 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-143256.0)
+2021-03-22 17:36:13,809 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-142044.0)
+2021-03-22 17:36:13,809 - hybrid.flow - DEBUG - ArgMin min_idx=2
+2021-03-22 17:36:13,810 - hybrid.flow - INFO - Loop Iteration(iterno=1, input_state_key=-143244.0, output_state_key=-143256.0)
+2021-03-22 17:36:13,837 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 30
+2021-03-22 17:36:13,839 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x41', 'x39', 'x16', 'x12', 'x10', 'x9', 'x0', 'x2', 'x1', 'x45', 'x6', 'x42', 'x34', 'x11', 'x32', 'x38', 'x14', 'x36', 'x35', 'x3', 'x4', 'x8', 'x40', 'x5', 'x17', 'x43', 'x33', 'x37', 'x44'}
+2021-03-22 17:36:15,980 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:15,985 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:16,490 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:18,324 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(100,)) -> samples (shape=(1,)), sample energies changed [-143256.] -> [-132288.]
+2021-03-22 17:36:18,328 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=-143256.0)
+2021-03-22 17:36:18,328 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143256.0)
+2021-03-22 17:36:18,329 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-143268.0)
+2021-03-22 17:36:18,329 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-132288.0)
+2021-03-22 17:36:18,329 - hybrid.flow - DEBUG - ArgMin min_idx=2
+2021-03-22 17:36:18,329 - hybrid.flow - INFO - Loop Iteration(iterno=2, input_state_key=-143256.0, output_state_key=-143268.0)
+2021-03-22 17:36:18,354 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 30
+2021-03-22 17:36:18,358 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x41', 'x39', 'x16', 'x12', 'x10', 'x9', 'x0', 'x2', 'x1', 'x45', 'x6', 'x42', 'x34', 'x11', 'x32', 'x38', 'x14', 'x36', 'x35', 'x3', 'x4', 'x8', 'x40', 'x5', 'x17', 'x43', 'x33', 'x37', 'x44'}
+2021-03-22 17:36:20,875 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:20,880 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:23,236 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(100,)) -> samples (shape=(1,)), sample energies changed [-143268.] -> [-143028.]
+2021-03-22 17:36:23,241 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=-143268.0)
+2021-03-22 17:36:23,241 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143268.0)
+2021-03-22 17:36:23,241 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-143388.0)
+2021-03-22 17:36:23,241 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-143028.0)
+2021-03-22 17:36:23,241 - hybrid.flow - DEBUG - ArgMin min_idx=2
+2021-03-22 17:36:23,241 - hybrid.flow - INFO - Loop Iteration(iterno=3, input_state_key=-143268.0, output_state_key=-143388.0)
+2021-03-22 17:36:23,268 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 30
+2021-03-22 17:36:23,269 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x41', 'x39', 'x16', 'x12', 'x10', 'x9', 'x0', 'x2', 'x1', 'x45', 'x6', 'x42', 'x34', 'x11', 'x32', 'x38', 'x14', 'x36', 'x35', 'x3', 'x4', 'x8', 'x40', 'x5', 'x17', 'x43', 'x33', 'x37', 'x44'}
+2021-03-22 17:36:24,715 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:24,720 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:25,221 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:27,322 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(99,)) -> samples (shape=(1,)), sample energies changed [-143388.] -> [-132852.]
+2021-03-22 17:36:27,326 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=-143388.0)
+2021-03-22 17:36:27,326 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143388.0)
+2021-03-22 17:36:27,326 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-143226.0)
+2021-03-22 17:36:27,326 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-132852.0)
+2021-03-22 17:36:27,326 - hybrid.flow - DEBUG - ArgMin min_idx=0
+2021-03-22 17:36:27,327 - hybrid.flow - INFO - Loop Iteration(iterno=4, input_state_key=-143388.0, output_state_key=-143388.0)
+2021-03-22 17:36:27,351 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 30
+2021-03-22 17:36:27,352 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x41', 'x39', 'x16', 'x12', 'x10', 'x9', 'x0', 'x2', 'x1', 'x45', 'x6', 'x42', 'x34', 'x11', 'x32', 'x38', 'x14', 'x36', 'x35', 'x3', 'x4', 'x8', 'x40', 'x5', 'x17', 'x43', 'x33', 'x37', 'x44'}
+2021-03-22 17:36:28,595 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:28,600 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:29,100 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:29,408 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(100,)) -> samples (shape=(1,)), sample energies changed [-143388.] -> [-142602.]
+2021-03-22 17:36:29,411 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=-143388.0)
+2021-03-22 17:36:29,411 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143388.0)
+2021-03-22 17:36:29,411 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-142800.0)
+2021-03-22 17:36:29,411 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-142602.0)
+2021-03-22 17:36:29,412 - hybrid.flow - DEBUG - ArgMin min_idx=0
+2021-03-22 17:36:29,413 - hybrid.flow - INFO - Loop Iteration(iterno=5, input_state_key=-143388.0, output_state_key=-143388.0)
+2021-03-22 17:36:29,441 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 30
+2021-03-22 17:36:29,442 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 30 subproblem variables: {'x15', 'x41', 'x39', 'x16', 'x12', 'x10', 'x9', 'x0', 'x2', 'x1', 'x45', 'x6', 'x42', 'x34', 'x11', 'x32', 'x38', 'x14', 'x36', 'x35', 'x3', 'x4', 'x8', 'x40', 'x5', 'x17', 'x43', 'x33', 'x37', 'x44'}
+2021-03-22 17:36:33,443 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:33,477 - hybrid.flow - DEBUG - RacingBranches won idx=2 branch=InterruptableSimulatedAnnealingProblemSampler(num_reads=1, num_sweeps=10000, initial_states_generator='random')
+2021-03-22 17:36:33,967 - hybrid.flow - INFO - InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-22 17:36:34,271 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(100,)) -> samples (shape=(1,)), sample energies changed [-143388.] -> [-141672.]
+2021-03-22 17:36:34,276 - hybrid.flow - DEBUG - ArgMin State(idx=0, val=-143388.0)
+2021-03-22 17:36:34,276 - hybrid.flow - DEBUG - ArgMin State(idx=1, val=-143388.0)
+2021-03-22 17:36:34,276 - hybrid.flow - DEBUG - ArgMin State(idx=2, val=-143298.0)
+2021-03-22 17:36:34,277 - hybrid.flow - DEBUG - ArgMin State(idx=3, val=-141672.0)
+2021-03-22 17:36:34,277 - hybrid.flow - DEBUG - ArgMin min_idx=0
+2021-03-22 17:36:34,277 - hybrid.flow - INFO - Loop Iteration(iterno=6, input_state_key=-143388.0, output_state_key=-143388.0)
+2021-03-22 17:36:34,278 - hybrid_test - INFO - ['x11', 'x14', 'x15', 'x16', 'x19', 'x23', 'x27', 'x28', 'x30', 'x35', 'x6', 'x7'], COST: 612.0, TIME: [26.0, 34.0, 52.0, 60.0], DEADLINE: 60, ENERGY: -143388.0

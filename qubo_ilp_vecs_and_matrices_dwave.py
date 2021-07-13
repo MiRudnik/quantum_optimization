@@ -19,8 +19,8 @@ from utils.jobshop_helpers import ones_from_sample
 
 # smallest workflow -> chain_strength = 4000
 
-A, b, C, paths, tasks_number, machines_number = qubo_matrices_helpers.get_18_qubits_data()
-P = 10
+A, b, C, paths, tasks_number, machines_number, D = qubo_matrices_helpers.get_18_qubits_data(40)
+P = 6
 
 # SOLUTION
 D = np.diag(2 * A.transpose().dot(b))
@@ -33,12 +33,11 @@ qubits_number = len(QUBO[0])
 linear, quadratic = qubo_matrices_helpers.prepare_qubo_dicts_dwave(QUBO)
 Q = dict(linear)
 Q.update(quadratic)
-#
 
 embedding = qubo_matrices_helpers.find_complete_graph_embedding(qubits_number)
 
 emb_len = float(len(embedding['x0']))
-tQ = dwave.embedding.embed_qubo(Q, embedding, chimera_graph(16), chain_strength=70000)
+tQ = dwave.embedding.embed_qubo(Q, embedding, chimera_graph(16), chain_strength=18000)
 
 response = DWaveSampler().sample_qubo(tQ, num_reads=100)
 
@@ -53,7 +52,7 @@ source_bqm = dwavebinarycsp.dimod.BinaryQuadraticModel.from_qubo(Q)  # (linear, 
 suma = 0
 for i, val in enumerate(dwave.embedding.unembed_sampleset(response, source_bqm=source_bqm, embedding=embedding)):
     suma += list(response.data())[i].num_occurrences
-    print([s for s in ones_from_sample(val) if int(s[1:]) < 18], list(response.data())[i].num_occurrences, list(response.data())[i].energy, suma,)
+    print([s for s in ones_from_sample(val) if int(s[1:]) < 10], list(response.data())[i].num_occurrences, list(response.data())[i].energy, suma,)
 
 
 

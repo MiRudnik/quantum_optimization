@@ -1,0 +1,92 @@
+2021-04-06 18:13:01,758 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x45', 'x38', 'x31', 'x24', 'x44', 'x37', 'x30', 'x23', 'x43', 'x36', 'x29', 'x22']
+2021-04-06 18:13:04,722 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(2,)) -> samples (shape=(1,)), sample energies changed [0.] -> [-18984.]
+2021-04-06 18:13:04,725 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=0, input_state_key=0.0, output_state_key=-18984.0)
+2021-04-06 18:13:04,731 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x42', 'x35', 'x28', 'x21', 'x41', 'x34', 'x27', 'x20', 'x7', 'x40', 'x33', 'x26']
+2021-04-06 18:13:07,731 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(19,)) -> samples (shape=(1,)), sample energies changed [-18984.] -> [-91428.]
+2021-04-06 18:13:07,734 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=1, input_state_key=-18984.0, output_state_key=-91428.0)
+2021-04-06 18:13:07,742 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x39', 'x32', 'x25', 'x2', 'x13', 'x1', 'x18', 'x14', 'x4', 'x5', 'x19', 'x16']
+2021-04-06 18:13:10,111 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(25,)) -> samples (shape=(1,)), sample energies changed [-91428.] -> [-100332.]
+2021-04-06 18:13:10,114 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=2, input_state_key=-91428.0, output_state_key=-100332.0)
+2021-04-06 18:13:10,120 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x10', 'x17', 'x0', 'x8', 'x11', 'x12', 'x3', 'x15', 'x6', 'x9']
+2021-04-06 18:13:12,470 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(41,)) -> samples (shape=(1,)), sample energies changed [-100332.] -> [-115704.]
+2021-04-06 18:13:12,473 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=3, input_state_key=-100332.0, output_state_key=-115704.0)
+2021-04-06 18:13:12,481 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 46
+2021-04-06 18:13:12,481 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x5', 'x39', 'x25', 'x4', 'x18', 'x32', 'x2', 'x17', 'x0', 'x3', 'x12', 'x14']
+2021-04-06 18:13:14,845 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(5,)) -> samples (shape=(1,)), sample energies changed [-115704.] -> [-115704.]
+2021-04-06 18:13:14,848 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=4, input_state_key=-115704.0, output_state_key=-115704.0)
+2021-04-06 18:13:14,851 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x10', 'x15', 'x1', 'x13', 'x7', 'x9', 'x6', 'x28', 'x8', 'x11', 'x38', 'x24']
+2021-04-06 18:13:15,721 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(90,)) -> samples (shape=(1,)), sample energies changed [-115704.] -> [-116220.]
+2021-04-06 18:13:15,724 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=5, input_state_key=-115704.0, output_state_key=-116220.0)
+2021-04-06 18:13:15,730 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x31', 'x45', 'x37', 'x23', 'x30', 'x44', 'x36', 'x22', 'x16', 'x29', 'x35', 'x33']
+2021-04-06 18:13:16,520 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(10,)) -> samples (shape=(1,)), sample energies changed [-116220.] -> [-123120.]
+2021-04-06 18:13:16,523 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=6, input_state_key=-116220.0, output_state_key=-123120.0)
+2021-04-06 18:13:16,531 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x34', 'x19', 'x21', 'x43', 'x20', 'x26', 'x42', 'x27', 'x41', 'x40']
+2021-04-06 18:13:17,311 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(48,)) -> samples (shape=(1,)), sample energies changed [-123120.] -> [-133488.]
+2021-04-06 18:13:17,314 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=7, input_state_key=-123120.0, output_state_key=-133488.0)
+2021-04-06 18:13:17,321 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 46
+2021-04-06 18:13:17,321 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x32', 'x25', 'x5', 'x39', 'x18', 'x4', 'x17', 'x3', 'x2', 'x0', 'x16', 'x12']
+2021-04-06 18:13:18,149 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(14,)) -> samples (shape=(1,)), sample energies changed [-133488.] -> [-133488.]
+2021-04-06 18:13:18,153 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=8, input_state_key=-133488.0, output_state_key=-133488.0)
+2021-04-06 18:13:18,155 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x15', 'x10', 'x1', 'x13', 'x11', 'x9', 'x7', 'x6', 'x40', 'x19', 'x33', 'x26']
+2021-04-06 18:13:19,035 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(28,)) -> samples (shape=(1,)), sample energies changed [-133488.] -> [-133488.]
+2021-04-06 18:13:19,038 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=9, input_state_key=-133488.0, output_state_key=-133488.0)
+2021-04-06 18:13:19,040 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x27', 'x14', 'x41', 'x20', 'x35', 'x28', 'x42', 'x36', 'x34', 'x29', 'x21', 'x37']
+2021-04-06 18:13:19,822 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(12,)) -> samples (shape=(1,)), sample energies changed [-133488.] -> [-141096.]
+2021-04-06 18:13:19,825 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=10, input_state_key=-133488.0, output_state_key=-141096.0)
+2021-04-06 18:13:19,831 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x8', 'x38', 'x30', 'x44', 'x22', 'x31', 'x45', 'x23', 'x24', 'x43']
+2021-04-06 18:13:20,634 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(314,)) -> samples (shape=(1,)), sample energies changed [-141096.] -> [-141192.]
+2021-04-06 18:13:20,637 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=11, input_state_key=-141096.0, output_state_key=-141192.0)
+2021-04-06 18:13:20,644 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 46
+2021-04-06 18:13:20,645 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x2', 'x32', 'x5', 'x25', 'x39', 'x18', 'x4', 'x17', 'x3', 'x0', 'x8', 'x15']
+2021-04-06 18:13:21,506 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(12,)) -> samples (shape=(1,)), sample energies changed [-141192.] -> [-141192.]
+2021-04-06 18:13:21,509 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=12, input_state_key=-141192.0, output_state_key=-141192.0)
+2021-04-06 18:13:21,511 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x12', 'x16', 'x14', 'x10', 'x1', 'x13', 'x7', 'x6', 'x11', 'x9', 'x40', 'x19']
+2021-04-06 18:13:22,344 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(32,)) -> samples (shape=(1,)), sample energies changed [-141192.] -> [-141192.]
+2021-04-06 18:13:22,347 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=13, input_state_key=-141192.0, output_state_key=-141192.0)
+2021-04-06 18:13:22,349 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x34', 'x26', 'x27', 'x35', 'x41', 'x20', 'x36', 'x28', 'x37', 'x42', 'x29', 'x21']
+2021-04-06 18:13:23,137 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(37,)) -> samples (shape=(1,)), sample energies changed [-141192.] -> [-141384.]
+2021-04-06 18:13:23,140 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=14, input_state_key=-141192.0, output_state_key=-141384.0)
+2021-04-06 18:13:23,146 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x38', 'x43', 'x22', 'x30', 'x31', 'x44', 'x23', 'x45', 'x24', 'x33']
+2021-04-06 18:13:23,920 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(46,)) -> samples (shape=(1,)), sample energies changed [-141384.] -> [-142314.]
+2021-04-06 18:13:23,922 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=15, input_state_key=-141384.0, output_state_key=-142314.0)
+2021-04-06 18:13:23,928 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 46
+2021-04-06 18:13:23,928 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x25', 'x39', 'x18', 'x2', 'x14', 'x4', 'x5', 'x32', 'x16', 'x17', 'x11', 'x0']
+2021-04-06 18:13:24,825 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(32,)) -> samples (shape=(1,)), sample energies changed [-142314.] -> [-142314.]
+2021-04-06 18:13:24,828 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=16, input_state_key=-142314.0, output_state_key=-142314.0)
+2021-04-06 18:13:24,830 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x10', 'x9', 'x3', 'x6', 'x1', 'x12', 'x8', 'x13', 'x7', 'x15', 'x26', 'x40']
+2021-04-06 18:13:25,709 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(45,)) -> samples (shape=(1,)), sample energies changed [-142314.] -> [-142854.]
+2021-04-06 18:13:25,712 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=17, input_state_key=-142314.0, output_state_key=-142854.0)
+2021-04-06 18:13:25,719 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x19', 'x33', 'x20', 'x41', 'x27', 'x42', 'x22', 'x34', 'x28', 'x23', 'x43', 'x38']
+2021-04-06 18:13:26,497 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(102,)) -> samples (shape=(1,)), sample energies changed [-142854.] -> [-142974.]
+2021-04-06 18:13:26,501 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=18, input_state_key=-142854.0, output_state_key=-142974.0)
+2021-04-06 18:13:26,507 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x21', 'x30', 'x31', 'x44', 'x45', 'x29', 'x24', 'x37', 'x36', 'x35']
+2021-04-06 18:13:27,993 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(84,)) -> samples (shape=(1,)), sample energies changed [-142974.] -> [-143328.]
+2021-04-06 18:13:27,995 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=19, input_state_key=-142974.0, output_state_key=-143328.0)
+2021-04-06 18:13:28,002 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 46
+2021-04-06 18:13:28,003 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x2', 'x39', 'x25', 'x32', 'x5', 'x18', 'x4', 'x14', 'x17', 'x16', 'x3', 'x0']
+2021-04-06 18:13:28,890 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(25,)) -> samples (shape=(1,)), sample energies changed [-143328.] -> [-143328.]
+2021-04-06 18:13:28,893 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=20, input_state_key=-143328.0, output_state_key=-143328.0)
+2021-04-06 18:13:28,896 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x8', 'x15', 'x11', 'x10', 'x12', 'x6', 'x1', 'x9', 'x7', 'x13', 'x40', 'x26']
+2021-04-06 18:13:29,804 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(26,)) -> samples (shape=(1,)), sample energies changed [-143328.] -> [-143364.]
+2021-04-06 18:13:29,806 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=21, input_state_key=-143328.0, output_state_key=-143364.0)
+2021-04-06 18:13:29,812 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x33', 'x19', 'x20', 'x41', 'x34', 'x27', 'x21', 'x42', 'x35', 'x29', 'x28', 'x36']
+2021-04-06 18:13:30,605 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(46,)) -> samples (shape=(1,)), sample energies changed [-143364.] -> [-143364.]
+2021-04-06 18:13:30,607 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=22, input_state_key=-143364.0, output_state_key=-143364.0)
+2021-04-06 18:13:30,614 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x22', 'x43', 'x30', 'x37', 'x23', 'x44', 'x38', 'x24', 'x45', 'x31']
+2021-04-06 18:13:31,387 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(11,)) -> samples (shape=(1,)), sample energies changed [-143364.] -> [-143382.]
+2021-04-06 18:13:31,390 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=23, input_state_key=-143364.0, output_state_key=-143382.0)
+2021-04-06 18:13:31,396 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer reset rolling at unrolled history size 46
+2021-04-06 18:13:31,396 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x2', 'x39', 'x32', 'x25', 'x18', 'x5', 'x4', 'x14', 'x17', 'x16', 'x3', 'x0']
+2021-04-06 18:13:32,420 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(26,)) -> samples (shape=(1,)), sample energies changed [-143382.] -> [-143382.]
+2021-04-06 18:13:32,422 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=24, input_state_key=-143382.0, output_state_key=-143382.0)
+2021-04-06 18:13:32,425 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x8', 'x15', 'x11', 'x12', 'x10', 'x6', 'x9', 'x1', 'x13', 'x7', 'x40', 'x33']
+2021-04-06 18:13:33,282 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(23,)) -> samples (shape=(1,)), sample energies changed [-143382.] -> [-143382.]
+2021-04-06 18:13:33,285 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=25, input_state_key=-143382.0, output_state_key=-143382.0)
+2021-04-06 18:13:33,287 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 12 subproblem variables: ['x26', 'x19', 'x27', 'x20', 'x41', 'x34', 'x21', 'x42', 'x35', 'x28', 'x36', 'x29']
+2021-04-06 18:13:34,069 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(65,)) -> samples (shape=(1,)), sample energies changed [-143382.] -> [-143382.]
+2021-04-06 18:13:34,072 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=26, input_state_key=-143382.0, output_state_key=-143382.0)
+2021-04-06 18:13:34,074 - hybrid.decomposers - DEBUG - EnergyImpactDecomposer selected 10 subproblem variables: ['x22', 'x43', 'x37', 'x30', 'x23', 'x44', 'x38', 'x31', 'x24', 'x45']
+2021-04-06 18:13:34,859 - hybrid.composers - DEBUG - SplatComposer subsamples (shape=(8,)) -> samples (shape=(1,)), sample energies changed [-143382.] -> [-143382.]
+2021-04-06 18:13:34,862 - hybrid.flow - INFO - LoopUntilNoImprovement Iteration(iterno=27, input_state_key=-143382.0, output_state_key=-143382.0)
+2021-04-06 18:13:34,862 - hybrid_like_flow - INFO - Solution: sample=Sample(sample={'x0': 0, 'x1': 0, 'x10': 0, 'x11': 1, 'x12': 0, 'x13': 1, 'x14': 1, 'x15': 1, 'x16': 1, 'x17': 0, 'x18': 0, 'x19': 0, 'x2': 0, 'x20': 1, 'x21': 1, 'x22': 1, 'x23': 1, 'x24': 1, 'x25': 0, 'x26': 0, 'x27': 1, 'x28': 0, 'x29': 1, 'x3': 0, 'x30': 1, 'x31': 1, 'x32': 0, 'x33': 0, 'x34': 0, 'x35': 0, 'x36': 1, 'x37': 1, 'x38': 1, 'x39': 0, 'x4': 0, 'x40': 0, 'x41': 0, 'x42': 0, 'x43': 0, 'x44': 0, 'x45': 0, 'x5': 0, 'x6': 1, 'x7': 0, 'x8': 0, 'x9': 0}, energy=-143382.0, num_occurrences=1)
+2021-04-06 18:13:34,863 - hybrid_like_flow - INFO - SLACK([1, 1, 1, 0]) ['x11', 'x13', 'x14', 'x15', 'x16', 'x20', 'x21', 'x22', 'x23', 'x24', 'x27', 'x29', 'x30', 'x31', 'x36', 'x37', 'x38', 'x6'], COST: 600.0, TIME: [28.0, 36.0, 52.0, 60.0], DEADLINE: 60, ENERGY: -143382.0

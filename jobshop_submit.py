@@ -2,7 +2,7 @@ import dwavebinarycsp
 from dwave.system import DWaveSampler, EmbeddingComposite
 from dwave_qbsolv import QBSolv
 
-from jobshopproblem import JobShopProblem
+from utils.jobshopproblem import JobShopProblem
 
 
 # create job shop problem instance with given jobs, machine number and time limit (respectively)
@@ -21,11 +21,11 @@ Q, offset = bqm.to_qubo()
 # run on D'Wave computer:
 
 # run QUBO just as it is
-# response = EmbeddingComposite(DWaveSampler()).sample_qubo(Q, num_reads=200)
+response = EmbeddingComposite(DWaveSampler()).sample_qubo(Q, num_reads=200)
 
 # run with QBSolv (making big QUBO's smaller and submitting it to D'Wave)
-sampler = EmbeddingComposite(DWaveSampler())
-response = QBSolv().sample_qubo(Q, solver=sampler, solver_limit=30)
+# sampler = EmbeddingComposite(DWaveSampler())
+# response = QBSolv().sample_qubo(Q, solver=sampler, solver_limit=30)
 
 # print responses received from D'Wave
 for s in list(response.data()):

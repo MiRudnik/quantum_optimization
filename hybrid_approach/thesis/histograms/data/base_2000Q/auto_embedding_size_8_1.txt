@@ -1,0 +1,1182 @@
+P=8 S=10 chain_strength=1034.5499323804747
+{'x0': (365, 357, 373, 381, 363, 491), 'x1': (356, 364, 361, 489), 'x2': (636, 628, 626, 370, 498), 'x3': (367, 490, 362, 375, 383, 359), 'x4': (495, 503, 497, 487, 511), 'x5': (485, 493, 360, 488), 'x6': (627, 639, 631, 499, 371), 'x7': (382, 358, 366, 374, 496, 368), 'x8': (353, 481, 225), 'x9': (500, 484, 492), 'x10': (354, 482, 226, 231), 'x11': (352, 480, 486), 'x12': (483, 355, 227, 229), 'x13': (505, 377, 633, 510), 'x14': (379, 507, 635, 509), 'x15': (504, 376, 632), 'x16': (372, 369, 380), 'x17': (378, 506, 634, 508)}
+['x0', 'x1', 'x12', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8942.0, OCCURENCES: 1/1
+['x1', 'x11', 'x12', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8941.0, OCCURENCES: 2/3
+['x0', 'x11', 'x12', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8941.0, OCCURENCES: 4/7
+['x10', 'x12', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8940.0, OCCURENCES: 2/9
+['x10', 'x11', 'x12', 'x15', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8939.0, OCCURENCES: 4/13
+['x0', 'x1', 'x10', 'x11', 'x12', 'x15', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8939.0, OCCURENCES: 2/15
+['x0', 'x12', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8938.0, OCCURENCES: 1/16
+['x1', 'x11', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8937.0, OCCURENCES: 2/18
+['x10', 'x12', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8936.0, OCCURENCES: 3/21
+SLACK([1, 0]) ['x0', 'x11', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 2/23
+SLACK([0, 1]) ['x1', 'x11', 'x12', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 1/24
+SLACK([0, 1]) ['x1', 'x11', 'x12', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 1/25
+SLACK([1, 0]) ['x1', 'x10', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 2/27
+SLACK([1, 0]) ['x1', 'x11', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 1/28
+SLACK([0, 1]) ['x0', 'x11', 'x12', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 1/29
+SLACK([0, 1]) ['x0', 'x11', 'x12', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 2/31
+SLACK([1, 0]) ['x0', 'x10', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 2/33
+SLACK([0, 1]) ['x1', 'x11', 'x12', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8933.0, OCCURENCES: 1/34
+SLACK([0, 1]) ['x10', 'x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8932.0, OCCURENCES: 1/35
+SLACK([1, 0]) ['x10', 'x11', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8932.0, OCCURENCES: 3/38
+SLACK([0, 1]) ['x1', 'x10', 'x12', 'x15', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8932.0, OCCURENCES: 1/39
+SLACK([1, 0]) ['x10', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8932.0, OCCURENCES: 2/41
+SLACK([0, 1]) ['x10', 'x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8932.0, OCCURENCES: 4/45
+SLACK([1, 0]) ['x10', 'x11', 'x15', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8931.0, OCCURENCES: 1/46
+SLACK([0, 1]) ['x10', 'x11', 'x12', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8931.0, OCCURENCES: 2/48
+SLACK([0, 1]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x15', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8931.0, OCCURENCES: 1/49
+SLACK([0, 1]) ['x10', 'x11', 'x12', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8931.0, OCCURENCES: 3/52
+SLACK([1, 0]) ['x0', 'x1', 'x15', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8931.0, OCCURENCES: 1/53
+SLACK([1, 0]) ['x0', 'x1', 'x10', 'x11', 'x15', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8931.0, OCCURENCES: 1/54
+SLACK([0, 1]) ['x0', 'x12', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8930.0, OCCURENCES: 3/57
+SLACK([1, 0]) ['x0', 'x11', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8930.0, OCCURENCES: 3/60
+SLACK([1, 0]) ['x0', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8930.0, OCCURENCES: 1/61
+SLACK([0, 1]) ['x0', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8930.0, OCCURENCES: 3/64
+SLACK([0, 1]) ['x1', 'x11', 'x12', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8929.0, OCCURENCES: 4/68
+SLACK([1, 0]) ['x1', 'x10', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8929.0, OCCURENCES: 3/71
+SLACK([0, 1]) ['x1', 'x11', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8929.0, OCCURENCES: 2/73
+SLACK([1, 0]) ['x1', 'x11', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8929.0, OCCURENCES: 1/74
+SLACK([1, 0]) ['x10', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8928.0, OCCURENCES: 3/77
+SLACK([0, 1]) ['x10', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8928.0, OCCURENCES: 9/86
+SLACK([0, 1]) ['x10', 'x12', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8928.0, OCCURENCES: 2/88
+SLACK([1, 0]) ['x10', 'x11', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8928.0, OCCURENCES: 5/93
+SLACK([1, 1]) ['x0', 'x1', 'x11', 'x17', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8926.0, OCCURENCES: 1/94
+SLACK([1, 1]) ['x0', 'x1', 'x17', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8926.0, OCCURENCES: 2/96
+SLACK([1, 1]) ['x1', 'x11', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8925.0, OCCURENCES: 2/98
+SLACK([1, 1]) ['x1', 'x11', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8925.0, OCCURENCES: 3/101
+SLACK([1, 1]) ['x0', 'x11', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8925.0, OCCURENCES: 3/104
+SLACK([1, 1]) ['x0', 'x10', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8925.0, OCCURENCES: 2/106
+SLACK([1, 1]) ['x1', 'x10', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8925.0, OCCURENCES: 1/107
+SLACK([1, 1]) ['x0', 'x11', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8925.0, OCCURENCES: 1/108
+SLACK([1, 1]) ['x1', 'x10', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 3/111
+SLACK([1, 1]) ['x10', 'x11', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 2/113
+SLACK([1, 1]) ['x10', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 4/117
+SLACK([1, 1]) ['x10', 'x11', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 4/121
+SLACK([1, 1]) ['x1', 'x10', 'x11', 'x15', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 1/122
+SLACK([1, 1]) ['x1', 'x10', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 1/123
+SLACK([1, 1]) ['x10', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8924.0, OCCURENCES: 3/126
+SLACK([1, 1]) ['x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 1/127
+SLACK([1, 1]) ['x10', 'x11', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 1/128
+SLACK([1, 1]) ['x10', 'x11', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 2/130
+SLACK([1, 1]) ['x0', 'x1', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 2/132
+SLACK([1, 1]) ['x0', 'x1', 'x10', 'x11', 'x15', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 5/137
+SLACK([1, 1]) ['x15', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 3/140
+SLACK([1, 1]) ['x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 2/142
+SLACK([1, 1]) ['x10', 'x11', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 1/143
+SLACK([1, 1]) ['x0', 'x1', 'x15', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8923.0, OCCURENCES: 1/144
+SLACK([1, 1]) ['x0', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8922.0, OCCURENCES: 2/146
+SLACK([1, 1]) ['x0', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8922.0, OCCURENCES: 5/151
+SLACK([1, 1]) ['x0', 'x11', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8922.0, OCCURENCES: 1/152
+SLACK([1, 1]) ['x0', 'x11', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8922.0, OCCURENCES: 3/155
+SLACK([1, 1]) ['x1', 'x11', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8921.0, OCCURENCES: 2/157
+SLACK([1, 1]) ['x1', 'x10', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8921.0, OCCURENCES: 1/158
+SLACK([1, 1]) ['x1', 'x11', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8921.0, OCCURENCES: 2/160
+SLACK([1, 1]) ['x10', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8920.0, OCCURENCES: 3/163
+SLACK([1, 1]) ['x10', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8920.0, OCCURENCES: 5/168
+SLACK([1, 1]) ['x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8920.0, OCCURENCES: 3/171
+SLACK([1, 1]) ['x10', 'x11', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8920.0, OCCURENCES: 10/181
+DEADLINE SLACK([0, 2]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8911.0, OCCURENCES: 5/186
+SLACK([2, 0]) ['x0', 'x1', 'x11', 'x12', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8910.0, OCCURENCES: 2/188
+DEADLINE SLACK([0, 2]) ['x0', 'x12', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8910.0, OCCURENCES: 2/190
+SLACK([2, 0]) ['x1', 'x10', 'x12', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8909.0, OCCURENCES: 1/191
+SLACK([2, 0]) ['x0', 'x10', 'x12', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8909.0, OCCURENCES: 1/192
+SLACK([2, 0]) ['x0', 'x12', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8909.0, OCCURENCES: 1/193
+SLACK([2, 0]) ['x1', 'x12', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8909.0, OCCURENCES: 1/194
+SLACK([2, 0]) ['x11', 'x12', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 1/195
+SLACK([0, 2]) ['x10', 'x12', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 1/196
+SLACK([2, 0]) ['x10', 'x11', 'x12', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 4/200
+SLACK([0, 2]) ['x10', 'x12', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 4/204
+SLACK([2, 0]) ['x1', 'x11', 'x12', 'x15', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 1/205
+SLACK([0, 2]) ['x1', 'x10', 'x12', 'x15', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 1/206
+SLACK([0, 2]) ['x1', 'x10', 'x12', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8908.0, OCCURENCES: 1/207
+SLACK([2, 0]) ['x0', 'x1', 'x12', 'x15', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8907.0, OCCURENCES: 1/208
+SLACK([0, 2]) ['x10', 'x11', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8907.0, OCCURENCES: 1/209
+SLACK([0, 2]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x15', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8907.0, OCCURENCES: 4/213
+SLACK([0, 2]) ['x10', 'x11', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8907.0, OCCURENCES: 4/217
+SLACK([0, 2]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x14', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8907.0, OCCURENCES: 2/219
+SLACK([2, 0]) ['x12', 'x15', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8907.0, OCCURENCES: 1/220
+SLACK([0, 2]) ['x0', 'x12', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8906.0, OCCURENCES: 1/221
+SLACK([0, 2]) ['x0', 'x12', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8906.0, OCCURENCES: 2/223
+SLACK([2, 0]) ['x0', 'x10', 'x11', 'x12', 'x15', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8906.0, OCCURENCES: 3/226
+SLACK([2, 0]) ['x0', 'x11', 'x12', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8906.0, OCCURENCES: 5/231
+SLACK([0, 2]) ['x1', 'x11', 'x12', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8905.0, OCCURENCES: 5/236
+SLACK([2, 0]) ['x1', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8905.0, OCCURENCES: 2/238
+SLACK([2, 0]) ['x1', 'x10', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8905.0, OCCURENCES: 4/242
+SLACK([0, 2]) ['x1', 'x11', 'x12', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8905.0, OCCURENCES: 1/243
+SLACK([2, 0]) ['x10', 'x11', 'x12', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8904.0, OCCURENCES: 8/251
+SLACK([2, 0]) ['x11', 'x12', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8904.0, OCCURENCES: 5/256
+SLACK([0, 2]) ['x10', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8904.0, OCCURENCES: 7/263
+SLACK([0, 2]) ['x10', 'x12', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8904.0, OCCURENCES: 4/267
+DEADLINE SLACK([1, 2]) ['x0', 'x1', 'x10', 'x11', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8903.0, OCCURENCES: 2/269
+SLACK([1, 2]) ['x0', 'x1', 'x16', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8902.0, OCCURENCES: 1/270
+SLACK([1, 2]) ['x0', 'x1', 'x11', 'x16', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8902.0, OCCURENCES: 1/271
+DEADLINE SLACK([1, 2]) ['x0', 'x11', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8902.0, OCCURENCES: 7/278
+DEADLINE SLACK([1, 2]) ['x0', 'x11', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8902.0, OCCURENCES: 1/279
+DEADLINE SLACK([1, 2]) ['x0', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8902.0, OCCURENCES: 2/281
+SLACK([2, 1]) ['x1', 'x10', 'x12', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 2/283
+SLACK([1, 2]) ['x1', 'x10', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 1/284
+SLACK([1, 2]) ['x0', 'x11', 'x16', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 3/287
+SLACK([1, 2]) ['x1', 'x10', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 1/288
+SLACK([2, 1]) ['x1', 'x10', 'x12', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 1/289
+SLACK([1, 2]) ['x1', 'x11', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 2/291
+SLACK([2, 1]) ['x1', 'x12', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 2/293
+SLACK([2, 1]) ['x0', 'x10', 'x12', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8901.0, OCCURENCES: 1/294
+SLACK([2, 1]) ['x10', 'x11', 'x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 5/299
+SLACK([1, 2]) ['x1', 'x10', 'x11', 'x15', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/300
+SLACK([2, 1]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/301
+SLACK([1, 2]) ['x1', 'x10', 'x15', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 2/303
+SLACK([2, 1]) ['x1', 'x11', 'x12', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/304
+SLACK([1, 2]) ['x10', 'x11', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 4/308
+SLACK([2, 1]) ['x10', 'x11', 'x12', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 4/312
+SLACK([1, 2]) ['x1', 'x10', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/313
+SLACK([2, 1]) ['x11', 'x12', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 3/316
+SLACK([1, 2]) ['x10', 'x11', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 3/319
+SLACK([2, 1]) ['x1', 'x10', 'x11', 'x12', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/320
+SLACK([2, 1]) ['x1', 'x11', 'x12', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 2/322
+SLACK([1, 2]) ['x1', 'x10', 'x11', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/323
+SLACK([2, 1]) ['x11', 'x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 3/326
+SLACK([1, 2]) ['x10', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 3/329
+SLACK([2, 1]) ['x10', 'x11', 'x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 1/330
+SLACK([1, 2]) ['x1', 'x10', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8900.0, OCCURENCES: 2/332
+SLACK([2, 1]) ['x12', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 3/335
+SLACK([1, 2]) ['x0', 'x1', 'x10', 'x11', 'x15', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 3/338
+SLACK([1, 2]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 5/343
+SLACK([1, 2]) ['x0', 'x1', 'x14', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 1/344
+SLACK([2, 1]) ['x10', 'x12', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 3/347
+SLACK([1, 2]) ['x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 1/348
+SLACK([1, 2]) ['x10', 'x11', 'x15', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 2/350
+SLACK([1, 2]) ['x10', 'x11', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 3/353
+SLACK([1, 2]) ['x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8899.0, OCCURENCES: 7/360
+SLACK([1, 2]) ['x0', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 4/364
+SLACK([2, 1]) ['x0', 'x11', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 4/368
+SLACK([1, 2]) ['x0', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 1/369
+SLACK([2, 1]) ['x0', 'x10', 'x11', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 6/375
+SLACK([2, 1]) ['x0', 'x11', 'x12', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 3/378
+SLACK([1, 2]) ['x0', 'x11', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 4/382
+SLACK([1, 2]) ['x0', 'x11', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8898.0, OCCURENCES: 3/385
+SLACK([1, 2]) ['x1', 'x10', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 3/388
+SLACK([1, 2]) ['x1', 'x10', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 1/389
+SLACK([2, 1]) ['x1', 'x12', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 1/390
+SLACK([2, 1]) ['x1', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 3/393
+SLACK([2, 1]) ['x1', 'x10', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 3/396
+SLACK([1, 2]) ['x1', 'x10', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 1/397
+SLACK([1, 2]) ['x1', 'x11', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 2/399
+SLACK([1, 2]) ['x1', 'x11', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 1/400
+SLACK([2, 1]) ['x1', 'x10', 'x12', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8897.0, OCCURENCES: 3/403
+SLACK([1, 2]) ['x10', 'x11', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 11/414
+SLACK([1, 2]) ['x10', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 3/417
+SLACK([1, 2]) ['x10', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 4/421
+SLACK([2, 1]) ['x10', 'x11', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 10/431
+SLACK([1, 2]) ['x10', 'x11', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 3/434
+SLACK([2, 1]) ['x11', 'x12', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 1/435
+SLACK([2, 1]) ['x10', 'x11', 'x12', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 7/442
+SLACK([2, 1]) ['x11', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8896.0, OCCURENCES: 7/449
+DEADLINE SLACK([2, 2]) ['x0', 'x1', 'x12', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8879.0, OCCURENCES: 2/451
+DEADLINE SLACK([2, 2]) ['x0', 'x11', 'x12', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8878.0, OCCURENCES: 1/452
+DEADLINE SLACK([2, 2]) ['x0', 'x10', 'x11', 'x12', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8878.0, OCCURENCES: 1/453
+SLACK([2, 2]) ['x0', 'x12', 'x16', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8877.0, OCCURENCES: 3/456
+SLACK([2, 2]) ['x1', 'x12', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8877.0, OCCURENCES: 2/458
+SLACK([2, 2]) ['x1', 'x10', 'x12', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8877.0, OCCURENCES: 4/462
+SLACK([2, 2]) ['x1', 'x12', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8877.0, OCCURENCES: 1/463
+SLACK([2, 2]) ['x1', 'x11', 'x12', 'x15', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8876.0, OCCURENCES: 1/464
+SLACK([2, 2]) ['x10', 'x11', 'x12', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8876.0, OCCURENCES: 5/469
+SLACK([2, 2]) ['x11', 'x12', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8876.0, OCCURENCES: 1/470
+SLACK([2, 2]) ['x11', 'x12', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8876.0, OCCURENCES: 2/472
+SLACK([2, 2]) ['x10', 'x11', 'x12', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8876.0, OCCURENCES: 9/481
+SLACK([2, 2]) ['x0', 'x1', 'x12', 'x14', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8875.0, OCCURENCES: 1/482
+SLACK([2, 2]) ['x10', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8875.0, OCCURENCES: 2/484
+SLACK([2, 2]) ['x12', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8875.0, OCCURENCES: 2/486
+SLACK([2, 2]) ['x0', 'x1', 'x10', 'x12', 'x14', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8875.0, OCCURENCES: 2/488
+SLACK([2, 2]) ['x12', 'x15', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8875.0, OCCURENCES: 1/489
+SLACK([2, 2]) ['x0', 'x11', 'x12', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8874.0, OCCURENCES: 1/490
+SLACK([2, 2]) ['x0', 'x10', 'x11', 'x12', 'x15', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8874.0, OCCURENCES: 3/493
+SLACK([2, 2]) ['x0', 'x11', 'x12', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8874.0, OCCURENCES: 4/497
+SLACK([2, 2]) ['x0', 'x11', 'x12', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8874.0, OCCURENCES: 3/500
+SLACK([2, 2]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8874.0, OCCURENCES: 8/508
+SLACK([2, 2]) ['x1', 'x12', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8873.0, OCCURENCES: 2/510
+SLACK([2, 2]) ['x1', 'x10', 'x12', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8873.0, OCCURENCES: 1/511
+SLACK([2, 2]) ['x1', 'x12', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8873.0, OCCURENCES: 1/512
+SLACK([2, 2]) ['x1', 'x10', 'x12', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8873.0, OCCURENCES: 4/516
+SLACK([2, 2]) ['x10', 'x11', 'x12', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8872.0, OCCURENCES: 3/519
+SLACK([2, 2]) ['x11', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8872.0, OCCURENCES: 5/524
+SLACK([2, 2]) ['x11', 'x12', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8872.0, OCCURENCES: 4/528
+SLACK([2, 2]) ['x10', 'x11', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8872.0, OCCURENCES: 5/533
+DEADLINE SLACK([0, 3]) ['x0', 'x12', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8870.0, OCCURENCES: 1/534
+SLACK([0, 3]) ['x1', 'x11', 'x12', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8869.0, OCCURENCES: 2/536
+SLACK([3, 0]) ['x1', 'x10', 'x11', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8869.0, OCCURENCES: 2/538
+SLACK([3, 0]) ['x0', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8869.0, OCCURENCES: 1/539
+SLACK([3, 0]) ['x0', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8869.0, OCCURENCES: 2/541
+SLACK([3, 0]) ['x11', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8868.0, OCCURENCES: 1/542
+SLACK([0, 3]) ['x10', 'x12', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8868.0, OCCURENCES: 2/544
+SLACK([0, 3]) ['x1', 'x10', 'x12', 'x15', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8868.0, OCCURENCES: 1/545
+SLACK([3, 0]) ['x16', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8868.0, OCCURENCES: 3/548
+SLACK([3, 0]) ['x0', 'x1', 'x10', 'x15', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8867.0, OCCURENCES: 1/549
+SLACK([0, 3]) ['x10', 'x11', 'x12', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8867.0, OCCURENCES: 2/551
+SLACK([0, 3]) ['x10', 'x11', 'x12', 'x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8867.0, OCCURENCES: 1/552
+SLACK([3, 0]) ['x10', 'x15', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8867.0, OCCURENCES: 1/553
+SLACK([3, 0]) ['x11', 'x15', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8867.0, OCCURENCES: 3/556
+SLACK([3, 0]) ['x0', 'x10', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8866.0, OCCURENCES: 1/557
+SLACK([3, 0]) ['x0', 'x10', 'x11', 'x15', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8866.0, OCCURENCES: 2/559
+SLACK([3, 0]) ['x0', 'x10', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8866.0, OCCURENCES: 1/560
+SLACK([0, 3]) ['x0', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8866.0, OCCURENCES: 4/564
+SLACK([0, 3]) ['x0', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8866.0, OCCURENCES: 1/565
+SLACK([0, 3]) ['x0', 'x12', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8866.0, OCCURENCES: 2/567
+SLACK([0, 3]) ['x1', 'x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8865.0, OCCURENCES: 1/568
+SLACK([3, 0]) ['x1', 'x10', 'x11', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8865.0, OCCURENCES: 2/570
+SLACK([3, 0]) ['x11', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8864.0, OCCURENCES: 3/573
+SLACK([0, 3]) ['x10', 'x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8864.0, OCCURENCES: 5/578
+SLACK([0, 3]) ['x10', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8864.0, OCCURENCES: 3/581
+DEADLINE SLACK([1, 3]) ['x0', 'x1', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8863.0, OCCURENCES: 1/582
+DEADLINE SLACK([1, 3]) ['x0', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8862.0, OCCURENCES: 3/585
+DEADLINE SLACK([1, 3]) ['x0', 'x11', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8862.0, OCCURENCES: 1/586
+DEADLINE SLACK([1, 3]) ['x0', 'x11', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8862.0, OCCURENCES: 9/595
+SLACK([1, 3]) ['x0', 'x11', 'x16', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/596
+SLACK([3, 1]) ['x0', 'x10', 'x11', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 2/598
+SLACK([3, 1]) ['x0', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/599
+SLACK([3, 1]) ['x1', 'x10', 'x11', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 2/601
+SLACK([1, 3]) ['x1', 'x10', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/602
+SLACK([3, 1]) ['x0', 'x10', 'x11', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/603
+SLACK([3, 1]) ['x1', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/604
+SLACK([1, 3]) ['x1', 'x11', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/605
+SLACK([3, 1]) ['x1', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8861.0, OCCURENCES: 1/606
+SLACK([1, 3]) ['x10', 'x11', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 5/611
+SLACK([3, 1]) ['x17', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 2/613
+SLACK([3, 1]) ['x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 2/615
+SLACK([3, 1]) ['x1', 'x11', 'x15', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 1/616
+SLACK([3, 1]) ['x11', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 2/618
+SLACK([1, 3]) ['x1', 'x10', 'x11', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 1/619
+SLACK([1, 3]) ['x1', 'x10', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 3/622
+SLACK([3, 1]) ['x1', 'x11', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 1/623
+SLACK([3, 1]) ['x1', 'x15', 'x17', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 1/624
+SLACK([3, 1]) ['x11', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8860.0, OCCURENCES: 3/627
+SLACK([1, 3]) ['x10', 'x11', 'x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/628
+SLACK([1, 3]) ['x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/629
+SLACK([3, 1]) ['x10', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 3/632
+SLACK([3, 1]) ['x11', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 3/635
+SLACK([1, 3]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 3/638
+SLACK([1, 3]) ['x10', 'x11', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 3/641
+SLACK([3, 1]) ['x0', 'x1', 'x11', 'x15', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 2/643
+SLACK([1, 3]) ['x0', 'x1', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/644
+SLACK([3, 1]) ['x11', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 4/648
+SLACK([1, 3]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 2/650
+SLACK([3, 1]) ['x10', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/651
+SLACK([1, 3]) ['x0', 'x1', 'x14', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 4/655
+SLACK([1, 3]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/656
+SLACK([3, 1]) ['x0', 'x1', 'x11', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/657
+SLACK([1, 3]) ['x10', 'x11', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 2/659
+SLACK([3, 1]) ['x11', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8859.0, OCCURENCES: 1/660
+SLACK([3, 1]) ['x0', 'x10', 'x11', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 3/663
+SLACK([1, 3]) ['x0', 'x11', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 4/667
+SLACK([3, 1]) ['x0', 'x10', 'x11', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 6/673
+SLACK([1, 3]) ['x0', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 1/674
+SLACK([1, 3]) ['x0', 'x11', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 2/676
+SLACK([1, 3]) ['x0', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 6/682
+SLACK([3, 1]) ['x0', 'x10', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 4/686
+SLACK([1, 3]) ['x0', 'x11', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 5/691
+SLACK([1, 3]) ['x0', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 1/692
+SLACK([3, 1]) ['x0', 'x10', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8858.0, OCCURENCES: 1/693
+SLACK([3, 1]) ['x1', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 1/694
+SLACK([3, 1]) ['x1', 'x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 1/695
+SLACK([1, 3]) ['x1', 'x10', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 3/698
+SLACK([3, 1]) ['x1', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 1/699
+SLACK([1, 3]) ['x1', 'x11', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 1/700
+SLACK([1, 3]) ['x1', 'x11', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 2/702
+SLACK([1, 3]) ['x1', 'x10', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 4/706
+SLACK([3, 1]) ['x1', 'x10', 'x11', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8857.0, OCCURENCES: 3/709
+SLACK([3, 1]) ['x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 2/711
+SLACK([3, 1]) ['x11', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 2/713
+SLACK([3, 1]) ['x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 1/714
+SLACK([1, 3]) ['x10', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 6/720
+SLACK([1, 3]) ['x10', 'x11', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 2/722
+SLACK([3, 1]) ['x11', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 4/726
+SLACK([1, 3]) ['x10', 'x11', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8856.0, OCCURENCES: 11/737
+DEADLINE SLACK([3, 2]) ['x0', 'x1', 'x10', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8839.0, OCCURENCES: 1/738
+DEADLINE SLACK([2, 3]) ['x0', 'x1', 'x10', 'x12', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8839.0, OCCURENCES: 1/739
+DEADLINE SLACK([3, 2]) ['x0', 'x1', 'x11', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8839.0, OCCURENCES: 1/740
+DEADLINE SLACK([2, 3]) ['x0', 'x10', 'x11', 'x12', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8838.0, OCCURENCES: 5/745
+DEADLINE SLACK([3, 2]) ['x0', 'x10', 'x11', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8838.0, OCCURENCES: 5/750
+DEADLINE SLACK([2, 3]) ['x0', 'x11', 'x12', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8838.0, OCCURENCES: 3/753
+DEADLINE SLACK([3, 2]) ['x0', 'x10', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8838.0, OCCURENCES: 1/754
+SLACK([2, 3]) ['x1', 'x12', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8837.0, OCCURENCES: 3/757
+SLACK([3, 2]) ['x1', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8837.0, OCCURENCES: 1/758
+SLACK([3, 2]) ['x1', 'x10', 'x11', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8837.0, OCCURENCES: 2/760
+SLACK([2, 3]) ['x1', 'x10', 'x12', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8837.0, OCCURENCES: 1/761
+SLACK([3, 2]) ['x0', 'x16', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8837.0, OCCURENCES: 2/763
+SLACK([3, 2]) ['x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 3/766
+SLACK([3, 2]) ['x1', 'x16', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 1/767
+SLACK([3, 2]) ['x11', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 3/770
+SLACK([2, 3]) ['x1', 'x10', 'x11', 'x12', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 1/771
+SLACK([2, 3]) ['x10', 'x11', 'x12', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 2/773
+SLACK([3, 2]) ['x11', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 3/776
+SLACK([2, 3]) ['x1', 'x10', 'x11', 'x12', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 2/778
+SLACK([2, 3]) ['x11', 'x12', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8836.0, OCCURENCES: 3/781
+SLACK([3, 2]) ['x0', 'x1', 'x10', 'x14', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/782
+SLACK([2, 3]) ['x10', 'x12', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/783
+SLACK([2, 3]) ['x0', 'x1', 'x12', 'x14', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/784
+SLACK([3, 2]) ['x0', 'x1', 'x11', 'x14', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/785
+SLACK([3, 2]) ['x10', 'x15', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/786
+SLACK([3, 2]) ['x11', 'x15', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/787
+SLACK([3, 2]) ['x0', 'x1', 'x10', 'x15', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/788
+SLACK([2, 3]) ['x12', 'x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/789
+SLACK([3, 2]) ['x11', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 4/793
+SLACK([2, 3]) ['x0', 'x1', 'x12', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/794
+SLACK([3, 2]) ['x11', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/795
+SLACK([3, 2]) ['x10', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 6/801
+SLACK([2, 3]) ['x12', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/802
+SLACK([2, 3]) ['x0', 'x1', 'x10', 'x12', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8835.0, OCCURENCES: 1/803
+SLACK([2, 3]) ['x0', 'x11', 'x12', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 2/805
+SLACK([2, 3]) ['x0', 'x11', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 2/807
+SLACK([2, 3]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 3/810
+SLACK([2, 3]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 2/812
+SLACK([2, 3]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 4/816
+SLACK([3, 2]) ['x0', 'x10', 'x11', 'x15', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 2/818
+SLACK([3, 2]) ['x0', 'x10', 'x11', 'x14', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 2/820
+SLACK([3, 2]) ['x0', 'x10', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 3/823
+SLACK([3, 2]) ['x0', 'x10', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8834.0, OCCURENCES: 6/829
+SLACK([2, 3]) ['x1', 'x12', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 2/831
+SLACK([3, 2]) ['x1', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 1/832
+SLACK([2, 3]) ['x1', 'x10', 'x12', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 2/834
+SLACK([2, 3]) ['x1', 'x12', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 2/836
+SLACK([3, 2]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 3/839
+SLACK([3, 2]) ['x1', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 2/841
+SLACK([2, 3]) ['x1', 'x10', 'x12', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8833.0, OCCURENCES: 1/842
+SLACK([3, 2]) ['x14', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 1/843
+SLACK([2, 3]) ['x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 5/848
+SLACK([2, 3]) ['x10', 'x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 3/851
+SLACK([3, 2]) ['x11', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 5/856
+SLACK([2, 3]) ['x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 2/858
+SLACK([3, 2]) ['x11', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 3/861
+SLACK([2, 3]) ['x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 1/862
+SLACK([3, 2]) ['x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 3/865
+SLACK([2, 3]) ['x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8832.0, OCCURENCES: 1/866
+DEADLINE SLACK([0, 4]) ['x0', 'x12', 'x16', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8814.0, OCCURENCES: 2/868
+SLACK([4, 0]) ['x0', 'x10', 'x11', 'x12', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8813.0, OCCURENCES: 1/869
+SLACK([0, 4]) ['x1', 'x11', 'x12', 'x15', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8813.0, OCCURENCES: 1/870
+SLACK([4, 0]) ['x1', 'x10', 'x11', 'x12', 'x16', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8813.0, OCCURENCES: 2/872
+SLACK([4, 0]) ['x1', 'x10', 'x11', 'x12', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8813.0, OCCURENCES: 1/873
+SLACK([0, 4]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x14', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8811.0, OCCURENCES: 2/875
+SLACK([0, 4]) ['x10', 'x11', 'x12', 'x14', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8811.0, OCCURENCES: 1/876
+SLACK([4, 0]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8811.0, OCCURENCES: 1/877
+SLACK([4, 0]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8811.0, OCCURENCES: 2/879
+SLACK([0, 4]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8811.0, OCCURENCES: 2/881
+SLACK([0, 4]) ['x10', 'x11', 'x12', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8811.0, OCCURENCES: 2/883
+SLACK([0, 4]) ['x0', 'x12', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8810.0, OCCURENCES: 4/887
+SLACK([0, 4]) ['x0', 'x12', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8810.0, OCCURENCES: 1/888
+SLACK([4, 0]) ['x0', 'x10', 'x12', 'x15', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8810.0, OCCURENCES: 1/889
+SLACK([4, 0]) ['x0', 'x10', 'x12', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8810.0, OCCURENCES: 3/892
+SLACK([0, 4]) ['x0', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8810.0, OCCURENCES: 2/894
+SLACK([0, 4]) ['x1', 'x11', 'x12', 'x14', 'x15', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8809.0, OCCURENCES: 4/898
+SLACK([4, 0]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8809.0, OCCURENCES: 3/901
+SLACK([4, 0]) ['x12', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8808.0, OCCURENCES: 1/902
+SLACK([0, 4]) ['x10', 'x12', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8808.0, OCCURENCES: 3/905
+SLACK([0, 4]) ['x10', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8808.0, OCCURENCES: 2/907
+DEADLINE SLACK([1, 4]) ['x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8807.0, OCCURENCES: 2/909
+DEADLINE SLACK([1, 4]) ['x10', 'x11', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8807.0, OCCURENCES: 1/910
+DEADLINE SLACK([1, 4]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8807.0, OCCURENCES: 2/912
+SLACK([1, 4]) ['x0', 'x1', 'x15', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8806.0, OCCURENCES: 2/914
+SLACK([1, 4]) ['x0', 'x11', 'x15', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8805.0, OCCURENCES: 1/915
+SLACK([4, 1]) ['x1', 'x10', 'x11', 'x12', 'x17', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8805.0, OCCURENCES: 1/916
+SLACK([4, 1]) ['x1', 'x10', 'x11', 'x12', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8805.0, OCCURENCES: 1/917
+SLACK([4, 1]) ['x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 4/921
+SLACK([4, 1]) ['x12', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 3/924
+SLACK([1, 4]) ['x10', 'x11', 'x15', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 1/925
+SLACK([1, 4]) ['x10', 'x15', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 2/927
+SLACK([4, 1]) ['x1', 'x12', 'x16', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 1/928
+SLACK([1, 4]) ['x1', 'x10', 'x14', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 1/929
+SLACK([1, 4]) ['x1', 'x10', 'x11', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8804.0, OCCURENCES: 2/931
+SLACK([1, 4]) ['x14', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/932
+SLACK([4, 1]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/933
+SLACK([4, 1]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 2/935
+SLACK([4, 1]) ['x11', 'x12', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/936
+SLACK([1, 4]) ['x10', 'x11', 'x14', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/937
+SLACK([1, 4]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/938
+SLACK([4, 1]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 2/940
+SLACK([4, 1]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 3/943
+SLACK([1, 4]) ['x0', 'x1', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/944
+SLACK([1, 4]) ['x0', 'x1', 'x14', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 2/946
+SLACK([4, 1]) ['x11', 'x12', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/947
+SLACK([1, 4]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 3/950
+SLACK([1, 4]) ['x0', 'x1', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 1/951
+SLACK([1, 4]) ['x10', 'x11', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 2/953
+SLACK([1, 4]) ['x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8803.0, OCCURENCES: 2/955
+SLACK([1, 4]) ['x0', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 3/958
+SLACK([1, 4]) ['x0', 'x11', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 5/963
+SLACK([4, 1]) ['x0', 'x10', 'x12', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 1/964
+SLACK([1, 4]) ['x0', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 2/966
+SLACK([4, 1]) ['x0', 'x10', 'x12', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 1/967
+SLACK([4, 1]) ['x0', 'x10', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 1/968
+SLACK([1, 4]) ['x0', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 1/969
+SLACK([1, 4]) ['x0', 'x11', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 1/970
+SLACK([4, 1]) ['x0', 'x10', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8802.0, OCCURENCES: 4/974
+SLACK([4, 1]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8801.0, OCCURENCES: 1/975
+SLACK([4, 1]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8801.0, OCCURENCES: 2/977
+SLACK([1, 4]) ['x1', 'x10', 'x15', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8801.0, OCCURENCES: 2/979
+SLACK([4, 1]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8801.0, OCCURENCES: 2/981
+SLACK([4, 1]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8801.0, OCCURENCES: 1/982
+SLACK([1, 4]) ['x10', 'x11', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 2/984
+SLACK([1, 4]) ['x10', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 1/985
+SLACK([1, 4]) ['x10', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 4/989
+SLACK([4, 1]) ['x12', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 2/991
+SLACK([4, 1]) ['x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 3/994
+SLACK([1, 4]) ['x10', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 1/995
+SLACK([1, 4]) ['x10', 'x11', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 6/1001
+SLACK([4, 1]) ['x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 5/1006
+SLACK([4, 1]) ['x12', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8800.0, OCCURENCES: 1/1007
+DEADLINE SLACK([3, 3]) ['x0', 'x1', 'x11', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8799.0, OCCURENCES: 2/1009
+DEADLINE SLACK([3, 3]) ['x0', 'x10', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8798.0, OCCURENCES: 4/1013
+DEADLINE SLACK([3, 3]) ['x0', 'x10', 'x11', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8798.0, OCCURENCES: 3/1016
+SLACK([3, 3]) ['x0', 'x10', 'x11', 'x16', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8797.0, OCCURENCES: 1/1017
+SLACK([3, 3]) ['x1', 'x10', 'x11', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8797.0, OCCURENCES: 2/1019
+SLACK([3, 3]) ['x1', 'x11', 'x17', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8796.0, OCCURENCES: 3/1022
+SLACK([3, 3]) ['x1', 'x17', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8796.0, OCCURENCES: 1/1023
+SLACK([3, 3]) ['x11', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8796.0, OCCURENCES: 2/1025
+SLACK([3, 3]) ['x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8796.0, OCCURENCES: 1/1026
+SLACK([3, 3]) ['x10', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8795.0, OCCURENCES: 3/1029
+SLACK([3, 3]) ['x0', 'x1', 'x11', 'x14', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8795.0, OCCURENCES: 2/1031
+SLACK([3, 3]) ['x0', 'x1', 'x10', 'x14', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8795.0, OCCURENCES: 1/1032
+SLACK([3, 3]) ['x11', 'x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8795.0, OCCURENCES: 2/1034
+SLACK([3, 3]) ['x0', 'x1', 'x11', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8795.0, OCCURENCES: 1/1035
+SLACK([3, 3]) ['x0', 'x1', 'x11', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8795.0, OCCURENCES: 1/1036
+SLACK([3, 3]) ['x0', 'x10', 'x11', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8794.0, OCCURENCES: 5/1041
+SLACK([3, 3]) ['x0', 'x10', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8794.0, OCCURENCES: 1/1042
+SLACK([3, 3]) ['x0', 'x10', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8794.0, OCCURENCES: 1/1043
+SLACK([3, 3]) ['x0', 'x10', 'x11', 'x14', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8794.0, OCCURENCES: 5/1048
+SLACK([3, 3]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8793.0, OCCURENCES: 2/1050
+SLACK([3, 3]) ['x1', 'x10', 'x11', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8793.0, OCCURENCES: 1/1051
+SLACK([3, 3]) ['x11', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8792.0, OCCURENCES: 3/1054
+SLACK([3, 3]) ['x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8792.0, OCCURENCES: 1/1055
+SLACK([3, 3]) ['x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8792.0, OCCURENCES: 1/1056
+SLACK([3, 3]) ['x11', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8792.0, OCCURENCES: 3/1059
+DEADLINE SLACK([2, 4]) ['x1', 'x11', 'x12', 'x2', 'x3', 'x4'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8784.0, OCCURENCES: 1/1060
+DEADLINE SLACK([4, 2]) ['x0', 'x1', 'x11', 'x12', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8783.0, OCCURENCES: 1/1061
+DEADLINE SLACK([2, 4]) ['x12', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8783.0, OCCURENCES: 2/1063
+DEADLINE SLACK([2, 4]) ['x0', 'x1', 'x10', 'x12', 'x16', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8783.0, OCCURENCES: 1/1064
+DEADLINE SLACK([4, 2]) ['x0', 'x1', 'x11', 'x12', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8783.0, OCCURENCES: 1/1065
+DEADLINE SLACK([4, 2]) ['x0', 'x10', 'x12', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8782.0, OCCURENCES: 3/1068
+SLACK([4, 2]) ['x0', 'x1', 'x10', 'x12', 'x16', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8782.0, OCCURENCES: 1/1069
+DEADLINE SLACK([4, 2]) ['x0', 'x10', 'x12', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8782.0, OCCURENCES: 1/1070
+SLACK([4, 2]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 2/1072
+SLACK([2, 4]) ['x1', 'x10', 'x12', 'x15', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 1/1073
+SLACK([2, 4]) ['x1', 'x12', 'x15', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 1/1074
+SLACK([2, 4]) ['x0', 'x10', 'x12', 'x15', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 1/1075
+SLACK([2, 4]) ['x0', 'x12', 'x15', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 1/1076
+SLACK([4, 2]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 1/1077
+SLACK([4, 2]) ['x1', 'x10', 'x11', 'x12', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8781.0, OCCURENCES: 1/1078
+SLACK([4, 2]) ['x12', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 1/1079
+SLACK([4, 2]) ['x12', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 2/1081
+SLACK([2, 4]) ['x11', 'x12', 'x15', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 1/1082
+SLACK([4, 2]) ['x12', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 1/1083
+SLACK([2, 4]) ['x10', 'x11', 'x12', 'x15', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 1/1084
+SLACK([2, 4]) ['x1', 'x10', 'x11', 'x12', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 2/1086
+SLACK([2, 4]) ['x1', 'x11', 'x12', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8780.0, OCCURENCES: 1/1087
+SLACK([2, 4]) ['x12', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 2/1089
+SLACK([2, 4]) ['x0', 'x1', 'x12', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 1/1090
+SLACK([4, 2]) ['x0', 'x1', 'x11', 'x12', 'x15', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 2/1092
+SLACK([2, 4]) ['x0', 'x1', 'x12', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 1/1093
+SLACK([4, 2]) ['x11', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 2/1095
+SLACK([4, 2]) ['x11', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 1/1096
+SLACK([4, 2]) ['x0', 'x1', 'x11', 'x12', 'x14', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 1/1097
+SLACK([2, 4]) ['x0', 'x1', 'x10', 'x12', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 1/1098
+SLACK([2, 4]) ['x0', 'x1', 'x10', 'x12', 'x14', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8779.0, OCCURENCES: 2/1100
+SLACK([2, 4]) ['x0', 'x11', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 2/1102
+SLACK([4, 2]) ['x0', 'x10', 'x12', 'x14', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 1/1103
+SLACK([4, 2]) ['x0', 'x10', 'x12', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 1/1104
+SLACK([2, 4]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 1/1105
+SLACK([2, 4]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 3/1108
+SLACK([2, 4]) ['x0', 'x11', 'x12', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 5/1113
+SLACK([4, 2]) ['x0', 'x10', 'x12', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 4/1117
+SLACK([2, 4]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8778.0, OCCURENCES: 1/1118
+SLACK([2, 4]) ['x1', 'x10', 'x12', 'x14', 'x15', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8777.0, OCCURENCES: 1/1119
+SLACK([2, 4]) ['x1', 'x12', 'x15', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8777.0, OCCURENCES: 1/1120
+SLACK([4, 2]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8777.0, OCCURENCES: 1/1121
+SLACK([4, 2]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8777.0, OCCURENCES: 1/1122
+SLACK([4, 2]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8777.0, OCCURENCES: 1/1123
+SLACK([4, 2]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8777.0, OCCURENCES: 1/1124
+SLACK([2, 4]) ['x11', 'x12', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8776.0, OCCURENCES: 3/1127
+SLACK([2, 4]) ['x10', 'x11', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8776.0, OCCURENCES: 3/1130
+SLACK([4, 2]) ['x12', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8776.0, OCCURENCES: 3/1133
+SLACK([2, 4]) ['x11', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8776.0, OCCURENCES: 5/1138
+DEADLINE SLACK([3, 4]) ['x1', 'x2', 'x3', 'x4', 'x9'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8744.0, OCCURENCES: 1/1139
+DEADLINE SLACK([3, 4]) ['x11', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8743.0, OCCURENCES: 2/1141
+DEADLINE SLACK([3, 4]) ['x10', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8743.0, OCCURENCES: 1/1142
+DEADLINE SLACK([4, 3]) ['x0', 'x1', 'x11', 'x12', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8743.0, OCCURENCES: 1/1143
+DEADLINE SLACK([3, 4]) ['x0', 'x1', 'x11', 'x16', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8743.0, OCCURENCES: 1/1144
+DEADLINE SLACK([0, 5]) ['x10', 'x11', 'x12', 'x17', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8743.0, OCCURENCES: 1/1145
+DEADLINE SLACK([3, 4]) ['x0', 'x1', 'x10', 'x16', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8743.0, OCCURENCES: 2/1147
+DEADLINE SLACK([4, 3]) ['x0', 'x10', 'x12', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8742.0, OCCURENCES: 1/1148
+DEADLINE SLACK([0, 5]) ['x0', 'x12', 'x16', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8742.0, OCCURENCES: 3/1151
+DEADLINE SLACK([4, 3]) ['x0', 'x10', 'x12', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8742.0, OCCURENCES: 2/1153
+DEADLINE SLACK([3, 4]) ['x0', 'x10', 'x11', 'x16', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8742.0, OCCURENCES: 1/1154
+SLACK([3, 4]) ['x1', 'x10', 'x11', 'x15', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8741.0, OCCURENCES: 1/1155
+SLACK([0, 5]) ['x0', 'x11', 'x12', 'x15', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8741.0, OCCURENCES: 1/1156
+SLACK([4, 3]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8741.0, OCCURENCES: 3/1159
+SLACK([3, 4]) ['x11', 'x15', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8740.0, OCCURENCES: 1/1160
+SLACK([4, 3]) ['x12', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8740.0, OCCURENCES: 1/1161
+SLACK([3, 4]) ['x10', 'x14', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 2/1163
+SLACK([0, 5]) ['x10', 'x11', 'x12', 'x14', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 1/1164
+SLACK([4, 3]) ['x0', 'x1', 'x11', 'x12', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 2/1166
+SLACK([4, 3]) ['x0', 'x1', 'x11', 'x12', 'x14', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 1/1167
+SLACK([3, 4]) ['x0', 'x1', 'x11', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 1/1168
+SLACK([0, 5]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 2/1170
+SLACK([3, 4]) ['x0', 'x1', 'x11', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 4/1174
+SLACK([3, 4]) ['x0', 'x1', 'x10', 'x14', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 1/1175
+SLACK([4, 3]) ['x0', 'x1', 'x11', 'x12', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 2/1177
+SLACK([3, 4]) ['x11', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 3/1180
+SLACK([3, 4]) ['x0', 'x1', 'x10', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 2/1182
+SLACK([4, 3]) ['x0', 'x1', 'x11', 'x12', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 1/1183
+SLACK([3, 4]) ['x10', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8739.0, OCCURENCES: 3/1186
+SLACK([4, 3]) ['x0', 'x10', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 2/1188
+SLACK([4, 3]) ['x0', 'x10', 'x12', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 6/1194
+SLACK([3, 4]) ['x0', 'x10', 'x11', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 1/1195
+SLACK([0, 5]) ['x0', 'x12', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 1/1196
+SLACK([3, 4]) ['x0', 'x10', 'x11', 'x14', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 1/1197
+SLACK([5, 0]) ['x0', 'x10', 'x11', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 3/1200
+SLACK([3, 4]) ['x0', 'x10', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 1/1201
+SLACK([3, 4]) ['x0', 'x10', 'x11', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 6/1207
+SLACK([4, 3]) ['x0', 'x10', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 2/1209
+SLACK([4, 3]) ['x0', 'x10', 'x12', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 1/1210
+SLACK([3, 4]) ['x0', 'x10', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8738.0, OCCURENCES: 5/1215
+SLACK([4, 3]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8737.0, OCCURENCES: 1/1216
+SLACK([3, 4]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8737.0, OCCURENCES: 1/1217
+SLACK([4, 3]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8737.0, OCCURENCES: 1/1218
+SLACK([0, 5]) ['x1', 'x11', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8737.0, OCCURENCES: 2/1220
+SLACK([3, 4]) ['x1', 'x14', 'x15', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8737.0, OCCURENCES: 1/1221
+SLACK([4, 3]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8737.0, OCCURENCES: 1/1222
+SLACK([0, 5]) ['x10', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8736.0, OCCURENCES: 1/1223
+SLACK([4, 3]) ['x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8736.0, OCCURENCES: 2/1225
+SLACK([3, 4]) ['x11', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8736.0, OCCURENCES: 1/1226
+SLACK([4, 3]) ['x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8736.0, OCCURENCES: 2/1228
+SLACK([4, 3]) ['x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8736.0, OCCURENCES: 1/1229
+SLACK([3, 4]) ['x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8736.0, OCCURENCES: 1/1230
+DEADLINE SLACK([1, 5]) ['x0', 'x1', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8735.0, OCCURENCES: 1/1231
+DEADLINE SLACK([1, 5]) ['x17', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8735.0, OCCURENCES: 1/1232
+DEADLINE SLACK([1, 5]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8735.0, OCCURENCES: 1/1233
+DEADLINE SLACK([1, 5]) ['x0', 'x16', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8734.0, OCCURENCES: 1/1234
+DEADLINE SLACK([1, 5]) ['x0', 'x11', 'x16', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8734.0, OCCURENCES: 1/1235
+SLACK([5, 1]) ['x1', 'x16', 'x17', 'x2', 'x4', 'x7', 'x8'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8733.0, OCCURENCES: 1/1236
+SLACK([5, 1]) ['x1', 'x11', 'x16', 'x17', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8732.0, OCCURENCES: 1/1237
+SLACK([5, 1]) ['x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8732.0, OCCURENCES: 1/1238
+SLACK([5, 1]) ['x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8732.0, OCCURENCES: 1/1239
+SLACK([1, 5]) ['x10', 'x11', 'x15', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8732.0, OCCURENCES: 1/1240
+SLACK([5, 1]) ['x10', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 1/1241
+SLACK([5, 1]) ['x11', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 2/1243
+SLACK([1, 5]) ['x0', 'x1', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 1/1244
+SLACK([1, 5]) ['x14', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 2/1246
+SLACK([5, 1]) ['x10', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 1/1247
+SLACK([1, 5]) ['x0', 'x1', 'x14', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 1/1248
+SLACK([5, 1]) ['x0', 'x1', 'x10', 'x15', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8731.0, OCCURENCES: 1/1249
+SLACK([1, 5]) ['x0', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 2/1251
+SLACK([5, 1]) ['x0', 'x10', 'x11', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 1/1252
+SLACK([1, 5]) ['x0', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 2/1254
+SLACK([5, 1]) ['x0', 'x10', 'x11', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 3/1257
+SLACK([1, 5]) ['x0', 'x11', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 1/1258
+SLACK([1, 5]) ['x0', 'x11', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 1/1259
+SLACK([1, 5]) ['x0', 'x11', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8730.0, OCCURENCES: 1/1260
+SLACK([1, 5]) ['x1', 'x10', 'x14', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8729.0, OCCURENCES: 3/1263
+SLACK([1, 5]) ['x1', 'x11', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8729.0, OCCURENCES: 1/1264
+SLACK([5, 1]) ['x1', 'x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8729.0, OCCURENCES: 1/1265
+SLACK([5, 1]) ['x11', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 1/1266
+SLACK([1, 5]) ['x10', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 2/1268
+SLACK([5, 1]) ['x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 2/1270
+SLACK([5, 1]) ['x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 1/1271
+SLACK([1, 5]) ['x10', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 2/1273
+SLACK([1, 5]) ['x10', 'x11', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 3/1276
+SLACK([1, 5]) ['x10', 'x11', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8728.0, OCCURENCES: 3/1279
+DEADLINE SLACK([2, 5]) ['x12', 'x17', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8711.0, OCCURENCES: 3/1282
+DEADLINE SLACK([2, 5]) ['x0', 'x1', 'x12', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8711.0, OCCURENCES: 2/1284
+DEADLINE SLACK([2, 5]) ['x0', 'x1', 'x10', 'x12', 'x16', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8711.0, OCCURENCES: 1/1285
+DEADLINE SLACK([5, 2]) ['x0', 'x10', 'x11', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8710.0, OCCURENCES: 1/1286
+DEADLINE SLACK([2, 5]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8710.0, OCCURENCES: 1/1287
+SLACK([5, 2]) ['x0', 'x16', 'x3', 'x5', 'x6', 'x9'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8709.0, OCCURENCES: 2/1289
+SLACK([2, 5]) ['x11', 'x12', 'x15', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8708.0, OCCURENCES: 2/1291
+SLACK([5, 2]) ['x11', 'x15', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8708.0, OCCURENCES: 1/1292
+SLACK([5, 2]) ['x1', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8708.0, OCCURENCES: 1/1293
+SLACK([5, 2]) ['x11', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8708.0, OCCURENCES: 1/1294
+SLACK([5, 2]) ['x10', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8707.0, OCCURENCES: 1/1295
+SLACK([5, 2]) ['x11', 'x16', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8707.0, OCCURENCES: 2/1297
+SLACK([2, 5]) ['x12', 'x14', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8707.0, OCCURENCES: 2/1299
+SLACK([2, 5]) ['x10', 'x12', 'x14', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8707.0, OCCURENCES: 2/1301
+SLACK([5, 2]) ['x0', 'x1', 'x10', 'x15', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8707.0, OCCURENCES: 2/1303
+SLACK([5, 2]) ['x0', 'x1', 'x11', 'x14', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8707.0, OCCURENCES: 1/1304
+SLACK([2, 5]) ['x0', 'x11', 'x12', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 1/1305
+SLACK([2, 5]) ['x0', 'x11', 'x12', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 1/1306
+SLACK([5, 2]) ['x0', 'x10', 'x11', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 1/1307
+SLACK([5, 2]) ['x0', 'x10', 'x15', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 2/1309
+SLACK([2, 5]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 3/1312
+SLACK([2, 5]) ['x0', 'x10', 'x11', 'x12', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 2/1314
+SLACK([2, 5]) ['x0', 'x10', 'x11', 'x12', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 5/1319
+SLACK([2, 5]) ['x0', 'x11', 'x12', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 1/1320
+SLACK([5, 2]) ['x0', 'x10', 'x14', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 1/1321
+SLACK([5, 2]) ['x0', 'x10', 'x11', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8706.0, OCCURENCES: 1/1322
+SLACK([2, 5]) ['x1', 'x12', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8705.0, OCCURENCES: 1/1323
+SLACK([5, 2]) ['x1', 'x10', 'x11', 'x14', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8705.0, OCCURENCES: 2/1325
+SLACK([5, 2]) ['x1', 'x14', 'x15', 'x4', 'x6', 'x7', 'x8'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8705.0, OCCURENCES: 2/1327
+SLACK([2, 5]) ['x1', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8705.0, OCCURENCES: 1/1328
+SLACK([5, 2]) ['x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8704.0, OCCURENCES: 1/1329
+SLACK([2, 5]) ['x11', 'x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8704.0, OCCURENCES: 1/1330
+SLACK([5, 2]) ['x11', 'x14', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8704.0, OCCURENCES: 1/1331
+SLACK([2, 5]) ['x10', 'x11', 'x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8704.0, OCCURENCES: 1/1332
+SLACK([2, 5]) ['x10', 'x11', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8704.0, OCCURENCES: 1/1333
+SLACK([5, 2]) ['x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8704.0, OCCURENCES: 3/1336
+DEADLINE SLACK([4, 4]) ['x11', 'x12', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8687.0, OCCURENCES: 2/1338
+SLACK([4, 4]) ['x0', 'x1', 'x10', 'x12', 'x15', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8686.0, OCCURENCES: 1/1339
+SLACK([4, 4]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x16', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8685.0, OCCURENCES: 1/1340
+SLACK([4, 4]) ['x1', 'x12', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8684.0, OCCURENCES: 1/1341
+SLACK([4, 4]) ['x0', 'x1', 'x11', 'x12', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8683.0, OCCURENCES: 1/1342
+SLACK([4, 4]) ['x11', 'x12', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8683.0, OCCURENCES: 1/1343
+SLACK([4, 4]) ['x0', 'x1', 'x11', 'x12', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8683.0, OCCURENCES: 1/1344
+SLACK([4, 4]) ['x11', 'x12', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8683.0, OCCURENCES: 3/1347
+SLACK([4, 4]) ['x0', 'x10', 'x12', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8682.0, OCCURENCES: 1/1348
+SLACK([4, 4]) ['x0', 'x10', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8682.0, OCCURENCES: 1/1349
+SLACK([4, 4]) ['x0', 'x10', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8682.0, OCCURENCES: 1/1350
+SLACK([4, 4]) ['x0', 'x10', 'x12', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8682.0, OCCURENCES: 3/1353
+SLACK([4, 4]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x16', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8681.0, OCCURENCES: 1/1354
+SLACK([4, 4]) ['x12', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8680.0, OCCURENCES: 1/1355
+SLACK([4, 4]) ['x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8680.0, OCCURENCES: 2/1357
+DEADLINE SLACK([3, 5]) ['x1', 'x11', 'x17', 'x2', 'x3', 'x4'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8672.0, OCCURENCES: 1/1358
+DEADLINE SLACK([3, 5]) ['x1', 'x17', 'x2', 'x3', 'x4', 'x9'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8672.0, OCCURENCES: 1/1359
+DEADLINE SLACK([3, 5]) ['x11', 'x17', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8671.0, OCCURENCES: 2/1361
+DEADLINE SLACK([3, 5]) ['x0', 'x1', 'x10', 'x16', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8671.0, OCCURENCES: 1/1362
+DEADLINE SLACK([3, 5]) ['x0', 'x1', 'x11', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8671.0, OCCURENCES: 1/1363
+DEADLINE SLACK([5, 3]) ['x0', 'x1', 'x10', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8671.0, OCCURENCES: 1/1364
+DEADLINE SLACK([5, 3]) ['x0', 'x10', 'x11', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8670.0, OCCURENCES: 1/1365
+DEADLINE SLACK([3, 5]) ['x0', 'x10', 'x16', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8670.0, OCCURENCES: 2/1367
+DEADLINE SLACK([3, 5]) ['x0', 'x10', 'x11', 'x16', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8670.0, OCCURENCES: 1/1368
+SLACK([3, 5]) ['x1', 'x10', 'x11', 'x15', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8669.0, OCCURENCES: 1/1369
+SLACK([5, 3]) ['x1', 'x10', 'x11', 'x15', 'x17', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8669.0, OCCURENCES: 1/1370
+SLACK([3, 5]) ['x0', 'x15', 'x17', 'x3', 'x5', 'x6'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8669.0, OCCURENCES: 1/1371
+SLACK([3, 5]) ['x11', 'x15', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8668.0, OCCURENCES: 1/1372
+SLACK([5, 3]) ['x10', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8667.0, OCCURENCES: 1/1373
+SLACK([5, 3]) ['x10', 'x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8667.0, OCCURENCES: 2/1375
+SLACK([3, 5]) ['x0', 'x1', 'x10', 'x14', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8667.0, OCCURENCES: 1/1376
+SLACK([3, 5]) ['x0', 'x1', 'x11', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8667.0, OCCURENCES: 1/1377
+SLACK([3, 5]) ['x0', 'x10', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 1/1378
+SLACK([5, 3]) ['x0', 'x10', 'x11', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 4/1382
+SLACK([3, 5]) ['x0', 'x10', 'x11', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 2/1384
+SLACK([3, 5]) ['x0', 'x10', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 2/1386
+SLACK([5, 3]) ['x0', 'x10', 'x11', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 2/1388
+SLACK([3, 5]) ['x0', 'x10', 'x11', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 2/1390
+SLACK([3, 5]) ['x0', 'x10', 'x11', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8666.0, OCCURENCES: 1/1391
+SLACK([5, 3]) ['x1', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x8'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8665.0, OCCURENCES: 1/1392
+SLACK([3, 5]) ['x1', 'x10', 'x11', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8665.0, OCCURENCES: 1/1393
+SLACK([5, 3]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8665.0, OCCURENCES: 1/1394
+SLACK([3, 5]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8665.0, OCCURENCES: 2/1396
+SLACK([5, 3]) ['x11', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8664.0, OCCURENCES: 2/1398
+SLACK([5, 3]) ['x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8664.0, OCCURENCES: 2/1400
+SLACK([3, 5]) ['x11', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8664.0, OCCURENCES: 2/1402
+SLACK([5, 3]) ['x11', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8664.0, OCCURENCES: 1/1403
+SLACK([5, 3]) ['x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8664.0, OCCURENCES: 4/1407
+DEADLINE SLACK([0, 6]) ['x10', 'x11', 'x12', 'x16', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8655.0, OCCURENCES: 1/1408
+SLACK([0, 6]) ['x10', 'x12', 'x14', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8652.0, OCCURENCES: 1/1409
+SLACK([6, 0]) ['x11', 'x12', 'x16', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8652.0, OCCURENCES: 1/1410
+SLACK([0, 6]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8651.0, OCCURENCES: 2/1412
+SLACK([6, 0]) ['x0', 'x10', 'x11', 'x12', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8650.0, OCCURENCES: 1/1413
+SLACK([0, 6]) ['x0', 'x12', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8650.0, OCCURENCES: 2/1415
+SLACK([0, 6]) ['x0', 'x12', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8650.0, OCCURENCES: 1/1416
+DEADLINE SLACK([1, 6]) ['x0', 'x1', 'x15', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8647.0, OCCURENCES: 1/1417
+DEADLINE SLACK([1, 6]) ['x0', 'x15', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8646.0, OCCURENCES: 2/1419
+DEADLINE SLACK([1, 6]) ['x0', 'x11', 'x15', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8646.0, OCCURENCES: 1/1420
+SLACK([6, 1]) ['x1', 'x10', 'x12', 'x16', 'x17', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8645.0, OCCURENCES: 2/1422
+SLACK([6, 1]) ['x11', 'x12', 'x17', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8644.0, OCCURENCES: 1/1423
+SLACK([1, 6]) ['x10', 'x11', 'x14', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8644.0, OCCURENCES: 4/1427
+SLACK([1, 6]) ['x10', 'x14', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8644.0, OCCURENCES: 2/1429
+SLACK([1, 6]) ['x0', 'x1', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8643.0, OCCURENCES: 1/1430
+SLACK([1, 6]) ['x0', 'x1', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8643.0, OCCURENCES: 2/1432
+SLACK([1, 6]) ['x14', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8643.0, OCCURENCES: 1/1433
+SLACK([1, 6]) ['x0', 'x1', 'x14', 'x15', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8643.0, OCCURENCES: 2/1435
+SLACK([1, 6]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x15', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8643.0, OCCURENCES: 1/1436
+SLACK([1, 6]) ['x0', 'x1', 'x10', 'x11', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8643.0, OCCURENCES: 1/1437
+SLACK([1, 6]) ['x0', 'x11', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8642.0, OCCURENCES: 1/1438
+SLACK([6, 1]) ['x0', 'x11', 'x12', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8642.0, OCCURENCES: 1/1439
+SLACK([6, 1]) ['x0', 'x11', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8642.0, OCCURENCES: 2/1441
+SLACK([1, 6]) ['x0', 'x11', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8642.0, OCCURENCES: 2/1443
+SLACK([1, 6]) ['x0', 'x11', 'x14', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8642.0, OCCURENCES: 1/1444
+SLACK([1, 6]) ['x1', 'x11', 'x13', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8641.0, OCCURENCES: 1/1445
+SLACK([1, 6]) ['x1', 'x10', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8641.0, OCCURENCES: 1/1446
+SLACK([1, 6]) ['x10', 'x11', 'x13', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8640.0, OCCURENCES: 1/1447
+SLACK([1, 6]) ['x10', 'x11', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8640.0, OCCURENCES: 1/1448
+SLACK([6, 1]) ['x10', 'x11', 'x12', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8640.0, OCCURENCES: 1/1449
+SLACK([6, 1]) ['x10', 'x11', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8640.0, OCCURENCES: 1/1450
+SLACK([6, 1]) ['x11', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8640.0, OCCURENCES: 1/1451
+DEADLINE SLACK([6, 2]) ['x0', 'x1', 'x10', 'x12', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8623.0, OCCURENCES: 1/1452
+DEADLINE SLACK([6, 2]) ['x0', 'x1', 'x12', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8623.0, OCCURENCES: 1/1453
+DEADLINE SLACK([2, 6]) ['x10', 'x12', 'x16', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8623.0, OCCURENCES: 1/1454
+DEADLINE SLACK([2, 6]) ['x0', 'x11', 'x12', 'x15', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8622.0, OCCURENCES: 3/1457
+DEADLINE SLACK([6, 2]) ['x0', 'x11', 'x12', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8622.0, OCCURENCES: 1/1458
+SLACK([6, 2]) ['x0', 'x12', 'x16', 'x3', 'x5', 'x6', 'x9'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8621.0, OCCURENCES: 1/1459
+SLACK([2, 6]) ['x1', 'x10', 'x12', 'x14', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8621.0, OCCURENCES: 1/1460
+SLACK([6, 2]) ['x10', 'x11', 'x12', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8620.0, OCCURENCES: 2/1462
+SLACK([6, 2]) ['x11', 'x12', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8620.0, OCCURENCES: 1/1463
+SLACK([2, 6]) ['x10', 'x11', 'x12', 'x14', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8620.0, OCCURENCES: 2/1465
+SLACK([2, 6]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x16', 'x3', 'x4', 'x6'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8620.0, OCCURENCES: 1/1466
+SLACK([6, 2]) ['x10', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8619.0, OCCURENCES: 1/1467
+SLACK([2, 6]) ['x0', 'x1', 'x10', 'x12', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8619.0, OCCURENCES: 1/1468
+SLACK([2, 6]) ['x0', 'x1', 'x10', 'x12', 'x14', 'x15', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8619.0, OCCURENCES: 1/1469
+SLACK([2, 6]) ['x12', 'x14', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8619.0, OCCURENCES: 2/1471
+SLACK([6, 2]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8618.0, OCCURENCES: 1/1472
+SLACK([2, 6]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x15', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8618.0, OCCURENCES: 2/1474
+SLACK([2, 6]) ['x0', 'x11', 'x12', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8618.0, OCCURENCES: 1/1475
+SLACK([6, 2]) ['x0', 'x11', 'x12', 'x15', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8618.0, OCCURENCES: 2/1477
+SLACK([2, 6]) ['x0', 'x10', 'x11', 'x12', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8618.0, OCCURENCES: 3/1480
+SLACK([6, 2]) ['x0', 'x10', 'x11', 'x12', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8618.0, OCCURENCES: 1/1481
+SLACK([2, 6]) ['x1', 'x12', 'x13', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8617.0, OCCURENCES: 1/1482
+SLACK([6, 2]) ['x1', 'x10', 'x12', 'x14', 'x15', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8617.0, OCCURENCES: 1/1483
+SLACK([6, 2]) ['x11', 'x12', 'x14', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8616.0, OCCURENCES: 1/1484
+SLACK([2, 6]) ['x10', 'x11', 'x12', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8616.0, OCCURENCES: 1/1485
+SLACK([2, 6]) ['x11', 'x12', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8616.0, OCCURENCES: 1/1486
+SLACK([2, 6]) ['x10', 'x11', 'x12', 'x13', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8616.0, OCCURENCES: 1/1487
+SLACK([6, 2]) ['x10', 'x11', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8616.0, OCCURENCES: 2/1489
+DEADLINE SLACK([4, 5]) ['x11', 'x12', 'x17', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8615.0, OCCURENCES: 1/1490
+DEADLINE SLACK([5, 4]) ['x11', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8615.0, OCCURENCES: 1/1491
+SLACK([5, 4]) ['x11', 'x15', 'x16', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8612.0, OCCURENCES: 1/1492
+SLACK([5, 4]) ['x0', 'x1', 'x10', 'x14', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8611.0, OCCURENCES: 2/1494
+SLACK([5, 4]) ['x0', 'x1', 'x10', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8611.0, OCCURENCES: 2/1496
+SLACK([4, 5]) ['x0', 'x1', 'x11', 'x12', 'x14', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8611.0, OCCURENCES: 1/1497
+SLACK([5, 4]) ['x10', 'x14', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8611.0, OCCURENCES: 1/1498
+SLACK([5, 4]) ['x11', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8611.0, OCCURENCES: 1/1499
+SLACK([5, 4]) ['x0', 'x1', 'x11', 'x14', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8611.0, OCCURENCES: 1/1500
+SLACK([5, 4]) ['x0', 'x10', 'x14', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 1/1501
+SLACK([4, 5]) ['x0', 'x10', 'x12', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 1/1502
+SLACK([4, 5]) ['x0', 'x10', 'x12', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 1/1503
+SLACK([5, 4]) ['x0', 'x10', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 1/1504
+SLACK([5, 4]) ['x0', 'x10', 'x11', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 5/1509
+SLACK([4, 5]) ['x0', 'x10', 'x12', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 2/1511
+SLACK([4, 5]) ['x0', 'x10', 'x12', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8610.0, OCCURENCES: 1/1512
+SLACK([4, 5]) ['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8609.0, OCCURENCES: 1/1513
+SLACK([4, 5]) ['x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8608.0, OCCURENCES: 1/1514
+SLACK([5, 4]) ['x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8608.0, OCCURENCES: 1/1515
+SLACK([5, 4]) ['x11', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8608.0, OCCURENCES: 1/1516
+SLACK([4, 5]) ['x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8608.0, OCCURENCES: 2/1518
+DEADLINE SLACK([3, 6]) ['x10', 'x16', 'x2', 'x3', 'x4', 'x5'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8583.0, OCCURENCES: 1/1519
+DEADLINE SLACK([6, 3]) ['x0', 'x11', 'x12', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8582.0, OCCURENCES: 1/1520
+DEADLINE SLACK([3, 6]) ['x0', 'x10', 'x15', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8582.0, OCCURENCES: 1/1521
+DEADLINE SLACK([3, 6]) ['x0', 'x10', 'x11', 'x15', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8582.0, OCCURENCES: 1/1522
+SLACK([6, 3]) ['x0', 'x12', 'x16', 'x17', 'x3', 'x5', 'x6', 'x9'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8581.0, OCCURENCES: 1/1523
+SLACK([3, 6]) ['x11', 'x14', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8580.0, OCCURENCES: 1/1524
+SLACK([6, 3]) ['x1', 'x11', 'x12', 'x17', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8580.0, OCCURENCES: 1/1525
+SLACK([3, 6]) ['x0', 'x1', 'x11', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8579.0, OCCURENCES: 1/1526
+SLACK([6, 3]) ['x0', 'x1', 'x12', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8579.0, OCCURENCES: 1/1527
+SLACK([3, 6]) ['x0', 'x1', 'x11', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8579.0, OCCURENCES: 1/1528
+SLACK([3, 6]) ['x0', 'x10', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8578.0, OCCURENCES: 1/1529
+SLACK([6, 3]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8578.0, OCCURENCES: 1/1530
+SLACK([3, 6]) ['x0', 'x10', 'x11', 'x14', 'x15', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8578.0, OCCURENCES: 1/1531
+SLACK([3, 6]) ['x0', 'x10', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8578.0, OCCURENCES: 1/1532
+SLACK([3, 6]) ['x0', 'x10', 'x14', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8578.0, OCCURENCES: 2/1534
+SLACK([3, 6]) ['x1', 'x10', 'x11', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8577.0, OCCURENCES: 1/1535
+SLACK([6, 3]) ['x10', 'x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8576.0, OCCURENCES: 1/1536
+SLACK([3, 6]) ['x11', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8576.0, OCCURENCES: 1/1537
+SLACK([6, 3]) ['x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8576.0, OCCURENCES: 1/1538
+DEADLINE SLACK([0, 7]) ['x1', 'x10', 'x12', 'x16', 'x17', 'x2', 'x3', 'x4'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8552.0, OCCURENCES: 1/1539
+SLACK([7, 0]) ['x0', 'x1', 'x3', 'x6', 'x9'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8550.0, OCCURENCES: 1/1540
+SLACK([0, 7]) ['x10', 'x12', 'x14', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8548.0, OCCURENCES: 1/1541
+SLACK([0, 7]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8547.0, OCCURENCES: 1/1542
+SLACK([0, 7]) ['x1', 'x11', 'x12', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8545.0, OCCURENCES: 1/1543
+SLACK([0, 7]) ['x1', 'x11', 'x12', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8545.0, OCCURENCES: 1/1544
+DEADLINE SLACK([5, 5]) ['x1', 'x11', 'x17', 'x2', 'x3', 'x4', 'x9'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8544.0, OCCURENCES: 1/1545
+SLACK([0, 7]) ['x10', 'x12', 'x13', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8544.0, OCCURENCES: 1/1546
+DEADLINE SLACK([5, 5]) ['x10', 'x17', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8543.0, OCCURENCES: 1/1547
+DEADLINE SLACK([1, 7]) ['x0', 'x1', 'x10', 'x11', 'x15', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8543.0, OCCURENCES: 2/1549
+DEADLINE SLACK([1, 7]) ['x0', 'x1', 'x15', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8543.0, OCCURENCES: 1/1550
+DEADLINE SLACK([5, 5]) ['x0', 'x10', 'x11', 'x16', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8542.0, OCCURENCES: 3/1553
+SLACK([5, 5]) ['x1', 'x10', 'x11', 'x15', 'x16', 'x17', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8541.0, OCCURENCES: 1/1554
+SLACK([1, 7]) ['x1', 'x10', 'x14', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8541.0, OCCURENCES: 2/1556
+SLACK([7, 1]) ['x0', 'x11', 'x17', 'x3', 'x5', 'x6', 'x9'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -8541.0, OCCURENCES: 1/1557
+SLACK([1, 7]) ['x10', 'x14', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8540.0, OCCURENCES: 2/1559
+SLACK([7, 1]) ['x10', 'x11', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8540.0, OCCURENCES: 2/1561
+SLACK([7, 1]) ['x10', 'x11', 'x17', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8540.0, OCCURENCES: 1/1562
+SLACK([1, 7]) ['x10', 'x11', 'x14', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8540.0, OCCURENCES: 1/1563
+SLACK([5, 5]) ['x10', 'x14', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8539.0, OCCURENCES: 2/1565
+SLACK([7, 1]) ['x0', 'x1', 'x10', 'x11', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8539.0, OCCURENCES: 2/1567
+SLACK([5, 5]) ['x11', 'x14', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8539.0, OCCURENCES: 1/1568
+SLACK([1, 7]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x15', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8539.0, OCCURENCES: 1/1569
+SLACK([7, 1]) ['x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8539.0, OCCURENCES: 1/1570
+SLACK([7, 1]) ['x10', 'x11', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8539.0, OCCURENCES: 1/1571
+SLACK([5, 5]) ['x0', 'x10', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1572
+SLACK([5, 5]) ['x0', 'x10', 'x11', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1573
+SLACK([7, 1]) ['x0', 'x11', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1574
+SLACK([5, 5]) ['x0', 'x10', 'x11', 'x14', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1575
+SLACK([5, 5]) ['x0', 'x10', 'x11', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1576
+SLACK([7, 1]) ['x0', 'x11', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1577
+SLACK([7, 1]) ['x0', 'x11', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1578
+SLACK([1, 7]) ['x0', 'x11', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8538.0, OCCURENCES: 1/1579
+SLACK([5, 5]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8537.0, OCCURENCES: 1/1580
+SLACK([5, 5]) ['x1', 'x15', 'x17', 'x4', 'x6', 'x7', 'x8'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8537.0, OCCURENCES: 1/1581
+SLACK([7, 1]) ['x10', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8536.0, OCCURENCES: 1/1582
+SLACK([1, 7]) ['x10', 'x11', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8536.0, OCCURENCES: 1/1583
+SLACK([5, 5]) ['x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8536.0, OCCURENCES: 3/1586
+SLACK([1, 7]) ['x10', 'x11', 'x13', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8536.0, OCCURENCES: 1/1587
+SLACK([7, 1]) ['x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8536.0, OCCURENCES: 2/1589
+DEADLINE SLACK([6, 4]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8526.0, OCCURENCES: 2/1591
+SLACK([4, 6]) ['x12', 'x14', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8524.0, OCCURENCES: 2/1593
+SLACK([6, 4]) ['x1', 'x11', 'x12', 'x14', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8524.0, OCCURENCES: 1/1594
+SLACK([4, 6]) ['x0', 'x1', 'x11', 'x12', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8523.0, OCCURENCES: 2/1596
+SLACK([6, 4]) ['x10', 'x12', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8523.0, OCCURENCES: 1/1597
+SLACK([4, 6]) ['x0', 'x10', 'x12', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1598
+SLACK([4, 6]) ['x0', 'x10', 'x12', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1599
+SLACK([4, 6]) ['x0', 'x10', 'x12', 'x14', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1600
+SLACK([6, 4]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1601
+SLACK([6, 4]) ['x0', 'x11', 'x12', 'x14', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1602
+SLACK([4, 6]) ['x0', 'x10', 'x12', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1603
+SLACK([6, 4]) ['x0', 'x11', 'x12', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1604
+SLACK([6, 4]) ['x0', 'x10', 'x11', 'x12', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8522.0, OCCURENCES: 1/1605
+SLACK([4, 6]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8521.0, OCCURENCES: 2/1607
+SLACK([4, 6]) ['x1', 'x10', 'x11', 'x12', 'x15', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8521.0, OCCURENCES: 1/1608
+SLACK([6, 4]) ['x11', 'x12', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8520.0, OCCURENCES: 1/1609
+SLACK([6, 4]) ['x11', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8520.0, OCCURENCES: 1/1610
+DEADLINE SLACK([2, 7]) ['x0', 'x11', 'x12', 'x15', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8518.0, OCCURENCES: 1/1611
+SLACK([2, 7]) ['x1', 'x12', 'x14', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8517.0, OCCURENCES: 1/1612
+SLACK([7, 2]) ['x10', 'x11', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8516.0, OCCURENCES: 1/1613
+SLACK([2, 7]) ['x10', 'x11', 'x12', 'x14', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8516.0, OCCURENCES: 1/1614
+SLACK([2, 7]) ['x0', 'x1', 'x12', 'x14', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8515.0, OCCURENCES: 1/1615
+SLACK([7, 2]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8515.0, OCCURENCES: 1/1616
+SLACK([2, 7]) ['x10', 'x12', 'x14', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8515.0, OCCURENCES: 1/1617
+SLACK([7, 2]) ['x10', 'x11', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8515.0, OCCURENCES: 1/1618
+SLACK([2, 7]) ['x0', 'x11', 'x12', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8514.0, OCCURENCES: 1/1619
+SLACK([2, 7]) ['x1', 'x10', 'x12', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8513.0, OCCURENCES: 1/1620
+SLACK([2, 7]) ['x10', 'x11', 'x12', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8512.0, OCCURENCES: 2/1622
+SLACK([2, 7]) ['x11', 'x12', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8512.0, OCCURENCES: 1/1623
+DEADLINE SLACK([3, 7]) ['x1', 'x11', 'x16', 'x17', 'x2', 'x3', 'x4'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8480.0, OCCURENCES: 1/1624
+DEADLINE SLACK([7, 3]) ['x0', 'x17', 'x2', 'x5', 'x7', 'x8'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8478.0, OCCURENCES: 1/1625
+SLACK([3, 7]) ['x1', 'x14', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8477.0, OCCURENCES: 1/1626
+SLACK([7, 3]) ['x1', 'x11', 'x15', 'x17', 'x2', 'x4', 'x7', 'x8'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8477.0, OCCURENCES: 1/1627
+SLACK([7, 3]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8475.0, OCCURENCES: 1/1628
+SLACK([3, 7]) ['x0', 'x10', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8474.0, OCCURENCES: 1/1629
+SLACK([7, 3]) ['x0', 'x14', 'x17', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8474.0, OCCURENCES: 1/1630
+SLACK([3, 7]) ['x1', 'x10', 'x11', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8473.0, OCCURENCES: 1/1631
+SLACK([3, 7]) ['x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8472.0, OCCURENCES: 1/1632
+SLACK([7, 3]) ['x10', 'x11', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8472.0, OCCURENCES: 2/1634
+SLACK([7, 3]) ['x10', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8472.0, OCCURENCES: 2/1636
+SLACK([7, 3]) ['x10', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8472.0, OCCURENCES: 1/1637
+DEADLINE SLACK([5, 6]) ['x1', 'x11', 'x16', 'x2', 'x3', 'x4', 'x9'], COST: 32.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -8456.0, OCCURENCES: 1/1638
+DEADLINE SLACK([5, 6]) ['x0', 'x10', 'x11', 'x15', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8454.0, OCCURENCES: 1/1639
+SLACK([5, 6]) ['x1', 'x10', 'x11', 'x14', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8453.0, OCCURENCES: 1/1640
+SLACK([6, 5]) ['x0', 'x1', 'x12', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8451.0, OCCURENCES: 1/1641
+SLACK([6, 5]) ['x0', 'x1', 'x12', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8451.0, OCCURENCES: 1/1642
+SLACK([5, 6]) ['x0', 'x10', 'x11', 'x14', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8450.0, OCCURENCES: 1/1643
+SLACK([6, 5]) ['x0', 'x10', 'x11', 'x12', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8450.0, OCCURENCES: 1/1644
+SLACK([5, 6]) ['x0', 'x10', 'x11', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8450.0, OCCURENCES: 1/1645
+SLACK([5, 6]) ['x0', 'x10', 'x11', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8450.0, OCCURENCES: 1/1646
+SLACK([5, 6]) ['x0', 'x10', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8450.0, OCCURENCES: 2/1648
+SLACK([5, 6]) ['x11', 'x13', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8448.0, OCCURENCES: 1/1649
+SLACK([5, 6]) ['x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8448.0, OCCURENCES: 1/1650
+SLACK([6, 5]) ['x11', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8448.0, OCCURENCES: 1/1651
+SLACK([6, 5]) ['x10', 'x11', 'x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8448.0, OCCURENCES: 1/1652
+SLACK([6, 5]) ['x10', 'x11', 'x12', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8448.0, OCCURENCES: 1/1653
+SLACK([0, 8]) ['x10', 'x12', 'x14', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8428.0, OCCURENCES: 1/1654
+SLACK([0, 8]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8427.0, OCCURENCES: 1/1655
+SLACK([0, 8]) ['x0', 'x12', 'x14', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8426.0, OCCURENCES: 1/1656
+DEADLINE SLACK([1, 8]) ['x0', 'x1', 'x2', 'x3'], COST: 30.0, TIME: [18.0, 27.0], DEADLINE: 19, ENERGY: -8426.0, OCCURENCES: 1/1657
+SLACK([8, 0]) ['x10', 'x12', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8424.0, OCCURENCES: 1/1658
+DEADLINE SLACK([4, 7]) ['x11', 'x12', 'x16', 'x17', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8423.0, OCCURENCES: 1/1659
+DEADLINE SLACK([1, 8]) ['x15', 'x2', 'x3', 'x4', 'x5', 'x9'], COST: 33.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8423.0, OCCURENCES: 1/1660
+DEADLINE SLACK([4, 7]) ['x0', 'x10', 'x12', 'x15', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8422.0, OCCURENCES: 3/1663
+DEADLINE SLACK([7, 4]) ['x0', 'x11', 'x16', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8422.0, OCCURENCES: 1/1664
+SLACK([1, 8]) ['x1', 'x10', 'x14', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8421.0, OCCURENCES: 1/1665
+SLACK([7, 4]) ['x1', 'x10', 'x14', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8420.0, OCCURENCES: 1/1666
+SLACK([4, 7]) ['x12', 'x14', 'x17', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8420.0, OCCURENCES: 1/1667
+SLACK([1, 8]) ['x0', 'x1', 'x10', 'x11', 'x14', 'x15', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8419.0, OCCURENCES: 1/1668
+SLACK([4, 7]) ['x0', 'x1', 'x11', 'x12', 'x14', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8419.0, OCCURENCES: 1/1669
+SLACK([7, 4]) ['x10', 'x11', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8419.0, OCCURENCES: 1/1670
+SLACK([7, 4]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8419.0, OCCURENCES: 1/1671
+SLACK([7, 4]) ['x0', 'x1', 'x16', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8419.0, OCCURENCES: 1/1672
+SLACK([7, 4]) ['x0', 'x16', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8418.0, OCCURENCES: 1/1673
+SLACK([8, 1]) ['x0', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8418.0, OCCURENCES: 3/1676
+SLACK([7, 4]) ['x0', 'x11', 'x16', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8418.0, OCCURENCES: 1/1677
+SLACK([1, 8]) ['x1', 'x10', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8417.0, OCCURENCES: 1/1678
+SLACK([1, 8]) ['x1', 'x10', 'x13', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8417.0, OCCURENCES: 1/1679
+SLACK([4, 7]) ['x12', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8416.0, OCCURENCES: 1/1680
+SLACK([8, 1]) ['x10', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8416.0, OCCURENCES: 1/1681
+SLACK([7, 4]) ['x10', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8416.0, OCCURENCES: 1/1682
+SLACK([1, 8]) ['x10', 'x13', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8416.0, OCCURENCES: 1/1683
+SLACK([1, 8]) ['x10', 'x11', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8416.0, OCCURENCES: 3/1686
+DEADLINE SLACK([2, 8]) ['x0', 'x1', 'x11', 'x12', 'x2', 'x3'], COST: 30.0, TIME: [18.0, 27.0], DEADLINE: 19, ENERGY: -8402.0, OCCURENCES: 1/1687
+DEADLINE SLACK([2, 8]) ['x0', 'x12', 'x2', 'x3', 'x5'], COST: 31.0, TIME: [16.0, 27.0], DEADLINE: 19, ENERGY: -8401.0, OCCURENCES: 1/1688
+DEADLINE SLACK([2, 8]) ['x0', 'x10', 'x11', 'x12', 'x15', 'x16', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8398.0, OCCURENCES: 1/1689
+SLACK([2, 8]) ['x10', 'x11', 'x12', 'x14', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8396.0, OCCURENCES: 1/1690
+SLACK([2, 8]) ['x11', 'x12', 'x14', 'x16', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8396.0, OCCURENCES: 1/1691
+SLACK([8, 2]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x15', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8395.0, OCCURENCES: 1/1692
+SLACK([2, 8]) ['x0', 'x11', 'x12', 'x14', 'x15', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8394.0, OCCURENCES: 1/1693
+SLACK([2, 8]) ['x1', 'x12', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8393.0, OCCURENCES: 3/1696
+SLACK([8, 2]) ['x10', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8392.0, OCCURENCES: 2/1698
+SLACK([2, 8]) ['x10', 'x11', 'x12', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8392.0, OCCURENCES: 2/1700
+SLACK([2, 8]) ['x10', 'x11', 'x12', 'x13', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8392.0, OCCURENCES: 1/1701
+SLACK([6, 6]) ['x10', 'x12', 'x14', 'x16', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8363.0, OCCURENCES: 1/1702
+SLACK([6, 6]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8362.0, OCCURENCES: 1/1703
+SLACK([6, 6]) ['x0', 'x10', 'x11', 'x12', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8362.0, OCCURENCES: 1/1704
+DEADLINE SLACK([3, 8]) ['x0', 'x2', 'x3', 'x5'], COST: 31.0, TIME: [16.0, 27.0], DEADLINE: 19, ENERGY: -8361.0, OCCURENCES: 1/1705
+DEADLINE SLACK([3, 8]) ['x0', 'x10', 'x11', 'x15', 'x16', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8358.0, OCCURENCES: 1/1706
+SLACK([3, 8]) ['x1', 'x10', 'x11', 'x14', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8357.0, OCCURENCES: 1/1707
+SLACK([8, 3]) ['x0', 'x12', 'x14', 'x17', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8354.0, OCCURENCES: 1/1708
+SLACK([3, 8]) ['x1', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8353.0, OCCURENCES: 1/1709
+SLACK([8, 3]) ['x10', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8352.0, OCCURENCES: 1/1710
+SLACK([3, 8]) ['x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8352.0, OCCURENCES: 1/1711
+DEADLINE SLACK([7, 5]) ['x0', 'x1', 'x10', 'x11', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8351.0, OCCURENCES: 1/1712
+SLACK([5, 7]) ['x0', 'x1', 'x10', 'x11', 'x15', 'x16', 'x17', 'x3', 'x6'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -8350.0, OCCURENCES: 1/1713
+DEADLINE SLACK([5, 7]) ['x0', 'x10', 'x15', 'x17', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8350.0, OCCURENCES: 1/1714
+SLACK([5, 7]) ['x1', 'x14', 'x17', 'x2', 'x4', 'x7', 'x8'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8349.0, OCCURENCES: 1/1715
+SLACK([7, 5]) ['x0', 'x11', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8346.0, OCCURENCES: 1/1716
+SLACK([7, 5]) ['x0', 'x17', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8346.0, OCCURENCES: 1/1717
+SLACK([5, 7]) ['x0', 'x10', 'x11', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8346.0, OCCURENCES: 2/1719
+SLACK([7, 5]) ['x10', 'x11', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8344.0, OCCURENCES: 1/1720
+SLACK([7, 5]) ['x10', 'x14', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8344.0, OCCURENCES: 1/1721
+DEADLINE SLACK([0, 9]) ['x0', 'x11', 'x12', 'x17', 'x2', 'x3', 'x5'], COST: 31.0, TIME: [16.0, 27.0], DEADLINE: 19, ENERGY: -8297.0, OCCURENCES: 2/1723
+SLACK([8, 4]) ['x10', 'x12', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8296.0, OCCURENCES: 1/1724
+SLACK([8, 4]) ['x10', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8296.0, OCCURENCES: 3/1727
+SLACK([0, 9]) ['x1', 'x11', 'x12', 'x14', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8293.0, OCCURENCES: 1/1728
+SLACK([0, 9]) ['x1', 'x11', 'x12', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8289.0, OCCURENCES: 1/1729
+SLACK([9, 0]) ['x10', 'x11', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8288.0, OCCURENCES: 1/1730
+SLACK([9, 1]) ['x10', 'x16', 'x17', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8284.0, OCCURENCES: 1/1731
+SLACK([9, 1]) ['x10', 'x11', 'x17', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8284.0, OCCURENCES: 1/1732
+SLACK([1, 9]) ['x0', 'x1', 'x14', 'x15', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8283.0, OCCURENCES: 1/1733
+SLACK([9, 1]) ['x1', 'x11', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8281.0, OCCURENCES: 1/1734
+SLACK([1, 9]) ['x10', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8280.0, OCCURENCES: 1/1735
+SLACK([9, 2]) ['x1', 'x11', 'x15', 'x2', 'x4', 'x7'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8261.0, OCCURENCES: 1/1736
+SLACK([9, 2]) ['x10', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8260.0, OCCURENCES: 1/1737
+SLACK([6, 7]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8258.0, OCCURENCES: 1/1738
+SLACK([6, 7]) ['x0', 'x11', 'x12', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8258.0, OCCURENCES: 1/1739
+SLACK([7, 6]) ['x0', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8258.0, OCCURENCES: 1/1740
+SLACK([9, 2]) ['x1', 'x10', 'x14', 'x15', 'x4', 'x6', 'x7', 'x8'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8257.0, OCCURENCES: 1/1741
+SLACK([2, 9]) ['x10', 'x11', 'x12', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8256.0, OCCURENCES: 1/1742
+SLACK([6, 7]) ['x10', 'x11', 'x12', 'x13', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8256.0, OCCURENCES: 1/1743
+DEADLINE SLACK([8, 5]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8231.0, OCCURENCES: 1/1744
+SLACK([5, 8]) ['x10', 'x14', 'x15', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 37.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8227.0, OCCURENCES: 1/1745
+DEADLINE SLACK([3, 9]) ['x0', 'x1', 'x10', 'x15', 'x16', 'x17', 'x2', 'x7'], COST: 33.0, TIME: [12.0, 21.0], DEADLINE: 19, ENERGY: -8223.0, OCCURENCES: 1/1746
+SLACK([3, 9]) ['x1', 'x14', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8221.0, OCCURENCES: 1/1747
+SLACK([3, 9]) ['x1', 'x10', 'x11', 'x14', 'x16', 'x17', 'x2', 'x4', 'x7', 'x9'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -8221.0, OCCURENCES: 1/1748
+SLACK([3, 9]) ['x0', 'x1', 'x10', 'x14', 'x15', 'x16', 'x17', 'x6', 'x7'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8219.0, OCCURENCES: 1/1749
+SLACK([3, 9]) ['x0', 'x10', 'x11', 'x14', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8218.0, OCCURENCES: 1/1750
+SLACK([9, 3]) ['x10', 'x11', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8216.0, OCCURENCES: 1/1751
+SLACK([7, 7]) ['x1', 'x10', 'x14', 'x16', 'x17', 'x3', 'x4', 'x6', 'x9'], COST: 36.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8156.0, OCCURENCES: 1/1752
+WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x14', 'x15', 'x5', 'x6', 'x7', 'x9'], COST: 32.0, TIME: [4.0, 7.0], DEADLINE: 19, ENERGY: -8144.0, OCCURENCES: 1/1753
+SLACK([1, 0]) WRONG TASKS NUMBER['x1', 'x10', 'x15', 'x2', 'x7', 'x9'], COST: 27.0, TIME: [6.0, 15.0], DEADLINE: 19, ENERGY: -8141.0, OCCURENCES: 1/1754
+SLACK([8, 6]) ['x10', 'x12', 'x14', 'x2', 'x4', 'x5', 'x7', 'x8'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8140.0, OCCURENCES: 1/1755
+SLACK([8, 6]) ['x10', 'x12', 'x14', 'x2', 'x4', 'x5', 'x7'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8140.0, OCCURENCES: 1/1756
+SLACK([1, 0]) WRONG TASKS NUMBER['x1', 'x10', 'x14', 'x15', 'x6', 'x7', 'x9'], COST: 31.0, TIME: [6.0, 7.0], DEADLINE: 19, ENERGY: -8137.0, OCCURENCES: 1/1757
+SLACK([1, 0]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x14', 'x15', 'x6', 'x7', 'x9'], COST: 31.0, TIME: [6.0, 7.0], DEADLINE: 19, ENERGY: -8137.0, OCCURENCES: 1/1758
+SLACK([1, 1]) WRONG TASKS NUMBER['x10', 'x14', 'x15', 'x17', 'x4', 'x5', 'x7', 'x9'], COST: 24.0, TIME: [6.0, 5.0], DEADLINE: 19, ENERGY: -8136.0, OCCURENCES: 1/1759
+SLACK([0, 1]) WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x14', 'x15', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 32.0, TIME: [4.0, 7.0], DEADLINE: 19, ENERGY: -8136.0, OCCURENCES: 1/1760
+SLACK([1, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x12', 'x14', 'x6', 'x9'], COST: 25.0, TIME: [9.0, 10.0], DEADLINE: 19, ENERGY: -8135.0, OCCURENCES: 1/1761
+DEADLINE SLACK([1, 10]) ['x0', 'x14', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8134.0, OCCURENCES: 1/1762
+SLACK([0, 1]) WRONG TASKS NUMBER['x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8132.0, OCCURENCES: 1/1763
+SLACK([1, 0]) WRONG TASKS NUMBER['x10', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8132.0, OCCURENCES: 1/1764
+SLACK([1, 10]) ['x10', 'x11', 'x14', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -8132.0, OCCURENCES: 1/1765
+SLACK([1, 10]) ['x0', 'x11', 'x13', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8130.0, OCCURENCES: 1/1766
+SLACK([1, 10]) ['x1', 'x11', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8129.0, OCCURENCES: 1/1767
+SLACK([1, 0]) WRONG TASKS NUMBER['x1', 'x12', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -8125.0, OCCURENCES: 1/1768
+SLACK([1, 1]) WRONG TASKS NUMBER['x10', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8124.0, OCCURENCES: 1/1769
+SLACK([1, 0]) WRONG TASKS NUMBER['x0', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8122.0, OCCURENCES: 2/1771
+SLACK([0, 1]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8122.0, OCCURENCES: 2/1773
+SLACK([0, 1]) WRONG TASKS NUMBER['x1', 'x11', 'x16', 'x3', 'x4', 'x6', 'x7'], COST: 48.0, TIME: [17.0, 18.0], DEADLINE: 19, ENERGY: -8120.0, OCCURENCES: 1/1774
+SLACK([1, 0]) WRONG TASKS NUMBER['x10', 'x12', 'x17', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -8119.0, OCCURENCES: 1/1775
+SLACK([0, 1]) WRONG TASKS NUMBER['x10', 'x16', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -8119.0, OCCURENCES: 1/1776
+SLACK([0, 1]) WRONG TASKS NUMBER['x10', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -8119.0, OCCURENCES: 2/1778
+SLACK([1, 2]) WRONG TASKS NUMBER['x14', 'x16', 'x3', 'x4', 'x5', 'x9'], COST: 21.0, TIME: [12.0, 11.0], DEADLINE: 19, ENERGY: -8115.0, OCCURENCES: 1/1779
+SLACK([1, 1]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8114.0, OCCURENCES: 1/1780
+SLACK([1, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x14', 'x15', 'x5', 'x7', 'x9'], COST: 22.0, TIME: [10.0, 9.0], DEADLINE: 19, ENERGY: -8114.0, OCCURENCES: 1/1781
+SLACK([1, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x16', 'x17', 'x2', 'x5', 'x9'], COST: 22.0, TIME: [7.0, 18.0], DEADLINE: 19, ENERGY: -8114.0, OCCURENCES: 1/1782
+SLACK([1, 1]) WRONG TASKS NUMBER['x0', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8114.0, OCCURENCES: 1/1783
+SLACK([2, 1]) WRONG TASKS NUMBER['x10', 'x11', 'x15', 'x16', 'x2', 'x4', 'x5', 'x9'], COST: 24.0, TIME: [3.0, 14.0], DEADLINE: 19, ENERGY: -8112.0, OCCURENCES: 2/1785
+SLACK([2, 1]) WRONG TASKS NUMBER['x11', 'x12', 'x14', 'x15', 'x17', 'x4', 'x5', 'x7', 'x9'], COST: 24.0, TIME: [6.0, 5.0], DEADLINE: 19, ENERGY: -8112.0, OCCURENCES: 1/1786
+SLACK([1, 2]) WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x15', 'x16', 'x17', 'x2', 'x4', 'x5', 'x9'], COST: 24.0, TIME: [3.0, 14.0], DEADLINE: 19, ENERGY: -8112.0, OCCURENCES: 1/1787
+SLACK([1, 1]) WRONG TASKS NUMBER['x11', 'x12', 'x16', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -8111.0, OCCURENCES: 1/1788
+SLACK([0, 2]) WRONG TASKS NUMBER['x15', 'x16', 'x3', 'x4', 'x6', 'x9'], COST: 33.0, TIME: [11.0, 15.0], DEADLINE: 19, ENERGY: -8111.0, OCCURENCES: 1/1789
+DEADLINE SLACK([2, 10]) ['x0', 'x10', 'x11', 'x12', 'x14', 'x2', 'x5', 'x7'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8110.0, OCCURENCES: 1/1790
+SLACK([1, 2]) WRONG TASKS NUMBER['x16', 'x2', 'x5', 'x7', 'x8'], COST: 28.0, TIME: [4.0, 15.0], DEADLINE: 19, ENERGY: -8108.0, OCCURENCES: 1/1791
+SLACK([0, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x16', 'x3', 'x5', 'x6'], COST: 38.0, TIME: [19.0, 19.0], DEADLINE: 19, ENERGY: -8106.0, OCCURENCES: 1/1792
+SLACK([2, 10]) ['x1', 'x12', 'x4', 'x6', 'x7', 'x9'], COST: 39.0, TIME: [8.0, 9.0], DEADLINE: 19, ENERGY: -8105.0, OCCURENCES: 1/1793
+SLACK([2, 1]) WRONG TASKS NUMBER['x1', 'x11', 'x12', 'x14', 'x15', 'x17', 'x6', 'x7', 'x9'], COST: 31.0, TIME: [6.0, 7.0], DEADLINE: 19, ENERGY: -8105.0, OCCURENCES: 1/1794
+SLACK([2, 0]) WRONG TASKS NUMBER['x1', 'x10', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -8101.0, OCCURENCES: 1/1795
+SLACK([0, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x12', 'x16', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8099.0, OCCURENCES: 1/1796
+SLACK([0, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x12', 'x15', 'x16', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8099.0, OCCURENCES: 1/1797
+SLACK([0, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8098.0, OCCURENCES: 1/1798
+SLACK([2, 0]) WRONG TASKS NUMBER['x0', 'x12', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8098.0, OCCURENCES: 2/1800
+SLACK([0, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8098.0, OCCURENCES: 1/1801
+SLACK([2, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x11', 'x12', 'x15', 'x17', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8091.0, OCCURENCES: 1/1802
+SLACK([1, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x16', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8091.0, OCCURENCES: 1/1803
+SLACK([2, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x12', 'x15', 'x17', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8091.0, OCCURENCES: 1/1804
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x14', 'x15', 'x5', 'x7', 'x9'], COST: 22.0, TIME: [10.0, 9.0], DEADLINE: 19, ENERGY: -8090.0, OCCURENCES: 1/1805
+SLACK([1, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8090.0, OCCURENCES: 1/1806
+SLACK([5, 9]) ['x0', 'x10', 'x11', 'x14', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8090.0, OCCURENCES: 1/1807
+SLACK([1, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8090.0, OCCURENCES: 2/1809
+SLACK([1, 2]) WRONG TASKS NUMBER['x0', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8090.0, OCCURENCES: 1/1810
+SLACK([5, 9]) ['x11', 'x17', 'x4', 'x5', 'x6', 'x7', 'x8'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8088.0, OCCURENCES: 1/1811
+SLACK([2, 1]) WRONG TASKS NUMBER['x10', 'x11', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -8087.0, OCCURENCES: 1/1812
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x15', 'x16', 'x17', 'x5', 'x6', 'x9'], COST: 26.0, TIME: [7.0, 10.0], DEADLINE: 19, ENERGY: -8086.0, OCCURENCES: 2/1814
+SLACK([0, 3]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x17', 'x3', 'x5'], COST: 19.0, TIME: [16.0, 15.0], DEADLINE: 19, ENERGY: -8085.0, OCCURENCES: 1/1815
+SLACK([2, 2]) WRONG TASKS NUMBER['x1', 'x12', 'x14', 'x3', 'x6', 'x9'], COST: 28.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8084.0, OCCURENCES: 1/1816
+SLACK([3, 0]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x17', 'x2', 'x5', 'x9'], COST: 22.0, TIME: [7.0, 18.0], DEADLINE: 19, ENERGY: -8082.0, OCCURENCES: 1/1817
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x16', 'x3', 'x6'], COST: 31.0, TIME: [15.0, 19.0], DEADLINE: 19, ENERGY: -8081.0, OCCURENCES: 1/1818
+SLACK([1, 3]) WRONG TASKS NUMBER['x0', 'x10', 'x17', 'x3', 'x5'], COST: 19.0, TIME: [16.0, 15.0], DEADLINE: 19, ENERGY: -8077.0, OCCURENCES: 1/1819
+SLACK([3, 0]) WRONG TASKS NUMBER['x10', 'x11', 'x15', 'x16', 'x3', 'x5', 'x6'], COST: 29.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -8075.0, OCCURENCES: 1/1820
+SLACK([1, 3]) WRONG TASKS NUMBER['x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x5', 'x7', 'x9'], COST: 24.0, TIME: [6.0, 5.0], DEADLINE: 19, ENERGY: -8072.0, OCCURENCES: 1/1821
+DEADLINE SLACK([3, 10]) ['x0', 'x10', 'x14', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8070.0, OCCURENCES: 1/1822
+SLACK([1, 3]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x14', 'x15', 'x5', 'x6', 'x9'], COST: 26.0, TIME: [7.0, 10.0], DEADLINE: 19, ENERGY: -8070.0, OCCURENCES: 1/1823
+SLACK([1, 3]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x16', 'x17', 'x3', 'x6'], COST: 28.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8068.0, OCCURENCES: 1/1824
+SLACK([3, 0]) WRONG TASKS NUMBER['x11', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8068.0, OCCURENCES: 1/1825
+SLACK([0, 3]) WRONG TASKS NUMBER['x10', 'x11', 'x14', 'x15', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8068.0, OCCURENCES: 1/1826
+SLACK([0, 3]) WRONG TASKS NUMBER['x10', 'x11', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8068.0, OCCURENCES: 1/1827
+SLACK([3, 10]) ['x0', 'x1', 'x11', 'x13', 'x6', 'x7', 'x9'], COST: 37.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -8067.0, OCCURENCES: 1/1828
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8066.0, OCCURENCES: 1/1829
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x12', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8066.0, OCCURENCES: 2/1831
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8066.0, OCCURENCES: 2/1833
+SLACK([1, 3]) WRONG TASKS NUMBER['x10', 'x11', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 32.0, TIME: [4.0, 7.0], DEADLINE: 19, ENERGY: -8064.0, OCCURENCES: 1/1834
+SLACK([10, 3]) ['x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -8064.0, OCCURENCES: 1/1835
+SLACK([0, 3]) WRONG TASKS NUMBER['x1', 'x11', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -8061.0, OCCURENCES: 1/1836
+SLACK([3, 1]) WRONG TASKS NUMBER['x11', 'x12', 'x14', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 36.0, TIME: [5.0, 9.0], DEADLINE: 19, ENERGY: -8060.0, OCCURENCES: 1/1837
+SLACK([3, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x12', 'x17', 'x3', 'x5', 'x6'], COST: 38.0, TIME: [19.0, 19.0], DEADLINE: 19, ENERGY: -8058.0, OCCURENCES: 1/1838
+SLACK([3, 0]) WRONG TASKS NUMBER['x0', 'x11', 'x15', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8058.0, OCCURENCES: 1/1839
+SLACK([3, 0]) WRONG TASKS NUMBER['x12', 'x17', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -8055.0, OCCURENCES: 1/1840
+SLACK([3, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x12', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 41.0, TIME: [13.0, 13.0], DEADLINE: 19, ENERGY: -8055.0, OCCURENCES: 1/1841
+SLACK([3, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x16', 'x3', 'x5'], COST: 19.0, TIME: [16.0, 15.0], DEADLINE: 19, ENERGY: -8053.0, OCCURENCES: 1/1842
+SLACK([1, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x17', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8051.0, OCCURENCES: 1/1843
+SLACK([3, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8050.0, OCCURENCES: 1/1844
+SLACK([3, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8050.0, OCCURENCES: 1/1845
+SLACK([3, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8050.0, OCCURENCES: 1/1846
+SLACK([1, 3]) WRONG TASKS NUMBER['x0', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8050.0, OCCURENCES: 1/1847
+SLACK([3, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8050.0, OCCURENCES: 2/1849
+SLACK([3, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x15', 'x6', 'x7'], COST: 34.0, TIME: [9.0, 13.0], DEADLINE: 19, ENERGY: -8038.0, OCCURENCES: 1/1850
+DEADLINE SLACK([7, 8]) ['x0', 'x15', 'x16', 'x2', 'x5', 'x7', 'x8'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -8038.0, OCCURENCES: 1/1851
+SLACK([2, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 41.0, TIME: [13.0, 13.0], DEADLINE: 19, ENERGY: -8031.0, OCCURENCES: 1/1852
+SLACK([3, 2]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -8029.0, OCCURENCES: 2/1854
+SLACK([3, 2]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x12', 'x14', 'x4', 'x5', 'x6', 'x7'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -8029.0, OCCURENCES: 1/1855
+SLACK([3, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8027.0, OCCURENCES: 1/1856
+SLACK([3, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x16', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8027.0, OCCURENCES: 1/1857
+SLACK([2, 3]) WRONG TASKS NUMBER['x0', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8026.0, OCCURENCES: 1/1858
+SLACK([2, 3]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8026.0, OCCURENCES: 2/1860
+SLACK([2, 3]) WRONG TASKS NUMBER['x0', 'x12', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8026.0, OCCURENCES: 1/1861
+SLACK([3, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -8026.0, OCCURENCES: 1/1862
+DEADLINE SLACK([2, 3]) WRONG TASKS NUMBER['x0', 'x11', 'x3', 'x5', 'x6', 'x7'], COST: 47.0, TIME: [19.0, 22.0], DEADLINE: 19, ENERGY: -8025.0, OCCURENCES: 1/1863
+SLACK([1, 4]) WRONG TASKS NUMBER['x0', 'x10', 'x3', 'x5'], COST: 19.0, TIME: [16.0, 15.0], DEADLINE: 19, ENERGY: -8021.0, OCCURENCES: 1/1864
+SLACK([4, 1]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x14', 'x17', 'x5', 'x7', 'x9'], COST: 22.0, TIME: [10.0, 9.0], DEADLINE: 19, ENERGY: -8018.0, OCCURENCES: 1/1865
+SLACK([0, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x11', 'x16', 'x5', 'x6', 'x7'], COST: 41.0, TIME: [13.0, 13.0], DEADLINE: 19, ENERGY: -8007.0, OCCURENCES: 1/1866
+DEADLINE SLACK([0, 4]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x2', 'x4', 'x5', 'x7'], COST: 42.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -8006.0, OCCURENCES: 1/1867
+SLACK([3, 3]) WRONG TASKS NUMBER['x1', 'x11', 'x15', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 27.0, TIME: [6.0, 15.0], DEADLINE: 19, ENERGY: -8005.0, OCCURENCES: 1/1868
+SLACK([4, 0]) WRONG TASKS NUMBER['x0', 'x1', 'x12', 'x15', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -8003.0, OCCURENCES: 1/1869
+SLACK([1, 4]) WRONG TASKS NUMBER['x1', 'x11', 'x12', 'x3', 'x4', 'x5', 'x6'], COST: 40.0, TIME: [15.0, 15.0], DEADLINE: 19, ENERGY: -8000.0, OCCURENCES: 1/1870
+SLACK([4, 1]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -7997.0, OCCURENCES: 1/1871
+SLACK([4, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x12', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7995.0, OCCURENCES: 1/1872
+SLACK([1, 4]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7994.0, OCCURENCES: 1/1873
+SLACK([1, 4]) WRONG TASKS NUMBER['x0', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7994.0, OCCURENCES: 1/1874
+SLACK([4, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7994.0, OCCURENCES: 1/1875
+SLACK([1, 4]) WRONG TASKS NUMBER['x0', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7994.0, OCCURENCES: 1/1876
+SLACK([1, 4]) WRONG TASKS NUMBER['x0', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7994.0, OCCURENCES: 1/1877
+SLACK([4, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7994.0, OCCURENCES: 1/1878
+SLACK([2, 4]) WRONG TASKS NUMBER['x11', 'x12', 'x13', 'x16', 'x4', 'x5', 'x7', 'x9'], COST: 24.0, TIME: [6.0, 5.0], DEADLINE: 19, ENERGY: -7992.0, OCCURENCES: 1/1879
+SLACK([3, 3]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -7989.0, OCCURENCES: 1/1880
+SLACK([4, 2]) WRONG TASKS NUMBER['x10', 'x14', 'x16', 'x17', 'x4', 'x5', 'x6', 'x8'], COST: 28.0, TIME: [3.0, 6.0], DEADLINE: 19, ENERGY: -7988.0, OCCURENCES: 1/1881
+SLACK([3, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x17', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7987.0, OCCURENCES: 1/1882
+SLACK([3, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x15', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7987.0, OCCURENCES: 1/1883
+SLACK([3, 3]) WRONG TASKS NUMBER['x0', 'x10', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7986.0, OCCURENCES: 2/1885
+SLACK([3, 3]) WRONG TASKS NUMBER['x0', 'x11', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7986.0, OCCURENCES: 1/1886
+SLACK([4, 2]) WRONG TASKS NUMBER['x0', 'x16', 'x3', 'x6', 'x9'], COST: 31.0, TIME: [15.0, 19.0], DEADLINE: 19, ENERGY: -7985.0, OCCURENCES: 1/1887
+SLACK([2, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x15', 'x3', 'x5', 'x6'], COST: 38.0, TIME: [19.0, 19.0], DEADLINE: 19, ENERGY: -7978.0, OCCURENCES: 1/1888
+SLACK([2, 4]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x3', 'x4', 'x5', 'x6'], COST: 40.0, TIME: [15.0, 15.0], DEADLINE: 19, ENERGY: -7976.0, OCCURENCES: 1/1889
+SLACK([11, 0]) ['x0', 'x10', 'x11', 'x3', 'x5', 'x6', 'x9'], COST: 35.0, TIME: [16.0, 19.0], DEADLINE: 19, ENERGY: -7973.0, OCCURENCES: 1/1890
+SLACK([4, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x12', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7971.0, OCCURENCES: 1/1891
+SLACK([4, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x12', 'x16', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7971.0, OCCURENCES: 1/1892
+SLACK([2, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x11', 'x12', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7971.0, OCCURENCES: 1/1893
+SLACK([2, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x11', 'x12', 'x4', 'x6', 'x7'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7971.0, OCCURENCES: 1/1894
+SLACK([2, 4]) WRONG TASKS NUMBER['x0', 'x12', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7970.0, OCCURENCES: 2/1896
+SLACK([4, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7970.0, OCCURENCES: 1/1897
+SLACK([4, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7970.0, OCCURENCES: 1/1898
+SLACK([2, 4]) WRONG TASKS NUMBER['x0', 'x12', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7970.0, OCCURENCES: 1/1899
+SLACK([4, 2]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7970.0, OCCURENCES: 1/1900
+DEADLINE SLACK([1, 11]) ['x0', 'x10', 'x16', 'x17', 'x2', 'x3', 'x5'], COST: 31.0, TIME: [16.0, 27.0], DEADLINE: 19, ENERGY: -7969.0, OCCURENCES: 1/1901
+SLACK([11, 1]) ['x1', 'x10', 'x11', 'x16', 'x17', 'x2', 'x4', 'x7', 'x8'], COST: 35.0, TIME: [8.0, 17.0], DEADLINE: 19, ENERGY: -7965.0, OCCURENCES: 1/1902
+DEADLINE SLACK([2, 4]) WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x16', 'x2', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 52.0, TIME: [6.0, 21.0], DEADLINE: 19, ENERGY: -7964.0, OCCURENCES: 1/1903
+SLACK([1, 11]) ['x10', 'x14', 'x15', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 36.0, TIME: [6.0, 17.0], DEADLINE: 19, ENERGY: -7964.0, OCCURENCES: 1/1904
+SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x12', 'x15', 'x17', 'x2', 'x5', 'x9'], COST: 22.0, TIME: [7.0, 18.0], DEADLINE: 19, ENERGY: -7954.0, OCCURENCES: 1/1905
+SLACK([0, 5]) WRONG TASKS NUMBER['x0', 'x10', 'x15', 'x5', 'x6', 'x9'], COST: 26.0, TIME: [7.0, 10.0], DEADLINE: 19, ENERGY: -7950.0, OCCURENCES: 1/1906
+SLACK([5, 0]) WRONG TASKS NUMBER['x10', 'x15', 'x2', 'x5', 'x7', 'x8'], COST: 28.0, TIME: [4.0, 15.0], DEADLINE: 19, ENERGY: -7948.0, OCCURENCES: 1/1907
+SLACK([5, 0]) WRONG TASKS NUMBER['x10', 'x14', 'x15', 'x5', 'x6', 'x7', 'x8'], COST: 32.0, TIME: [4.0, 7.0], DEADLINE: 19, ENERGY: -7944.0, OCCURENCES: 1/1908
+SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x14', 'x16', 'x6', 'x7'], COST: 34.0, TIME: [9.0, 13.0], DEADLINE: 19, ENERGY: -7942.0, OCCURENCES: 1/1909
+SLACK([1, 5]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x14', 'x16', 'x17', 'x3', 'x6'], COST: 28.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -7940.0, OCCURENCES: 1/1910
+DEADLINE SLACK([1, 5]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x16', 'x17', 'x2', 'x7', 'x9'], COST: 30.0, TIME: [9.0, 21.0], DEADLINE: 19, ENERGY: -7938.0, OCCURENCES: 1/1911
+SLACK([1, 5]) WRONG TASKS NUMBER['x1', 'x10', 'x15', 'x16', 'x17', 'x6', 'x7', 'x9'], COST: 31.0, TIME: [6.0, 7.0], DEADLINE: 19, ENERGY: -7937.0, OCCURENCES: 1/1912
+DEADLINE SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x2', 'x4', 'x7'], COST: 41.0, TIME: [14.0, 23.0], DEADLINE: 19, ENERGY: -7935.0, OCCURENCES: 1/1913
+SLACK([4, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x14', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 41.0, TIME: [13.0, 13.0], DEADLINE: 19, ENERGY: -7935.0, OCCURENCES: 1/1914
+DEADLINE SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x10', 'x2', 'x4', 'x5', 'x7'], COST: 42.0, TIME: [12.0, 23.0], DEADLINE: 19, ENERGY: -7934.0, OCCURENCES: 1/1915
+SLACK([4, 3]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x14', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -7933.0, OCCURENCES: 1/1916
+SLACK([3, 4]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x12', 'x14', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 43.0, TIME: [9.0, 9.0], DEADLINE: 19, ENERGY: -7933.0, OCCURENCES: 1/1917
+SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x14', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7931.0, OCCURENCES: 1/1918
+SLACK([4, 3]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7930.0, OCCURENCES: 1/1919
+SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x11', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7930.0, OCCURENCES: 2/1921
+SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x11', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7930.0, OCCURENCES: 1/1922
+SLACK([3, 4]) WRONG TASKS NUMBER['x0', 'x10', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7930.0, OCCURENCES: 1/1923
+SLACK([0, 5]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7930.0, OCCURENCES: 1/1924
+SLACK([4, 3]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x15', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7930.0, OCCURENCES: 2/1926
+SLACK([5, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7923.0, OCCURENCES: 1/1927
+SLACK([5, 1]) WRONG TASKS NUMBER['x0', 'x11', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7922.0, OCCURENCES: 1/1928
+SLACK([5, 2]) WRONG TASKS NUMBER['x12', 'x15', 'x2', 'x4', 'x7', 'x9'], COST: 32.0, TIME: [5.0, 17.0], DEADLINE: 19, ENERGY: -7912.0, OCCURENCES: 1/1929
+DEADLINE SLACK([3, 11]) ['x0', 'x10', 'x14', 'x17', 'x2', 'x5', 'x7', 'x9'], COST: 34.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -7902.0, OCCURENCES: 1/1930
+DEADLINE SLACK([5, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x3', 'x4', 'x5', 'x6'], COST: 43.0, TIME: [18.0, 21.0], DEADLINE: 19, ENERGY: -7901.0, OCCURENCES: 1/1931
+SLACK([5, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7898.0, OCCURENCES: 1/1932
+SLACK([4, 4]) WRONG TASKS NUMBER['x10', 'x17', 'x2', 'x4', 'x5', 'x9'], COST: 24.0, TIME: [3.0, 14.0], DEADLINE: 19, ENERGY: -7896.0, OCCURENCES: 1/1933
+SLACK([3, 11]) ['x11', 'x13', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -7896.0, OCCURENCES: 1/1934
+SLACK([5, 3]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x14', 'x15', 'x5', 'x6'], COST: 26.0, TIME: [7.0, 10.0], DEADLINE: 19, ENERGY: -7878.0, OCCURENCES: 1/1935
+SLACK([3, 5]) WRONG TASKS NUMBER['x1', 'x11', 'x14', 'x17', 'x2', 'x7', 'x9'], COST: 27.0, TIME: [6.0, 15.0], DEADLINE: 19, ENERGY: -7877.0, OCCURENCES: 1/1936
+SLACK([4, 4]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x14', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7874.0, OCCURENCES: 1/1937
+SLACK([4, 4]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7874.0, OCCURENCES: 2/1939
+SLACK([4, 4]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7874.0, OCCURENCES: 1/1940
+SLACK([5, 3]) WRONG TASKS NUMBER['x1', 'x11', 'x14', 'x17', 'x6', 'x7', 'x8'], COST: 31.0, TIME: [6.0, 7.0], DEADLINE: 19, ENERGY: -7873.0, OCCURENCES: 1/1941
+SLACK([0, 6]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x14', 'x16', 'x17', 'x2', 'x4', 'x9'], COST: 23.0, TIME: [5.0, 14.0], DEADLINE: 19, ENERGY: -7865.0, OCCURENCES: 1/1942
+SLACK([5, 3]) WRONG TASKS NUMBER['x0', 'x10', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7858.0, OCCURENCES: 1/1943
+SLACK([1, 6]) WRONG TASKS NUMBER['x1', 'x10', 'x11', 'x15', 'x16', 'x6', 'x7', 'x9'], COST: 31.0, TIME: [6.0, 7.0], DEADLINE: 19, ENERGY: -7849.0, OCCURENCES: 1/1944
+SLACK([6, 1]) WRONG TASKS NUMBER['x1', 'x11', 'x15', 'x17', 'x3', 'x4', 'x5', 'x6', 'x9'], COST: 40.0, TIME: [15.0, 15.0], DEADLINE: 19, ENERGY: -7840.0, OCCURENCES: 1/1945
+SLACK([6, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7'], COST: 41.0, TIME: [13.0, 13.0], DEADLINE: 19, ENERGY: -7839.0, OCCURENCES: 1/1946
+SLACK([6, 1]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7834.0, OCCURENCES: 1/1947
+SLACK([4, 5]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x17', 'x6', 'x7'], COST: 34.0, TIME: [9.0, 13.0], DEADLINE: 19, ENERGY: -7814.0, OCCURENCES: 1/1948
+SLACK([6, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x12', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7811.0, OCCURENCES: 1/1949
+SLACK([5, 4]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7803.0, OCCURENCES: 1/1950
+DEADLINE SLACK([3, 6]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x15', 'x2', 'x7'], COST: 30.0, TIME: [9.0, 21.0], DEADLINE: 19, ENERGY: -7786.0, OCCURENCES: 1/1951
+DEADLINE SLACK([6, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x17', 'x2', 'x5', 'x7'], COST: 37.0, TIME: [13.0, 21.0], DEADLINE: 19, ENERGY: -7779.0, OCCURENCES: 1/1952
+SLACK([1, 12]) ['x0', 'x13', 'x16', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -7778.0, OCCURENCES: 1/1953
+SLACK([12, 1]) ['x0', 'x10', 'x12', 'x15', 'x16', 'x17', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -7778.0, OCCURENCES: 1/1954
+SLACK([6, 3]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x12', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7771.0, OCCURENCES: 1/1955
+SLACK([3, 6]) WRONG TASKS NUMBER['x0', 'x11', 'x14', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7770.0, OCCURENCES: 1/1956
+SLACK([6, 3]) WRONG TASKS NUMBER['x0', 'x12', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7770.0, OCCURENCES: 1/1957
+SLACK([6, 3]) WRONG TASKS NUMBER['x11', 'x15', 'x3', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -7767.0, OCCURENCES: 1/1958
+SLACK([7, 0]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x17', 'x2', 'x5'], COST: 22.0, TIME: [7.0, 18.0], DEADLINE: 19, ENERGY: -7762.0, OCCURENCES: 1/1959
+SLACK([0, 7]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x16', 'x6', 'x9'], COST: 25.0, TIME: [9.0, 10.0], DEADLINE: 19, ENERGY: -7759.0, OCCURENCES: 1/1960
+SLACK([7, 0]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x15', 'x16', 'x6', 'x7'], COST: 34.0, TIME: [9.0, 13.0], DEADLINE: 19, ENERGY: -7750.0, OCCURENCES: 1/1961
+SLACK([5, 5]) WRONG TASKS NUMBER['x10', 'x13', 'x17', 'x5', 'x6', 'x7', 'x8'], COST: 32.0, TIME: [4.0, 7.0], DEADLINE: 19, ENERGY: -7744.0, OCCURENCES: 1/1962
+SLACK([6, 4]) WRONG TASKS NUMBER['x1', 'x11', 'x12', 'x2', 'x7', 'x8'], COST: 27.0, TIME: [6.0, 15.0], DEADLINE: 19, ENERGY: -7733.0, OCCURENCES: 1/1963
+SLACK([7, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x14', 'x7'], COST: 21.0, TIME: [12.0, 9.0], DEADLINE: 19, ENERGY: -7731.0, OCCURENCES: 1/1964
+SLACK([7, 1]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x16', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7730.0, OCCURENCES: 1/1965
+SLACK([5, 5]) WRONG TASKS NUMBER['x0', 'x10', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7730.0, OCCURENCES: 1/1966
+SLACK([7, 1]) WRONG TASKS NUMBER['x11', 'x12', 'x3', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -7727.0, OCCURENCES: 1/1967
+SLACK([7, 2]) WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x15', 'x2', 'x4', 'x7'], COST: 32.0, TIME: [5.0, 17.0], DEADLINE: 19, ENERGY: -7720.0, OCCURENCES: 1/1968
+SLACK([4, 6]) WRONG TASKS NUMBER['x0', 'x1', 'x12', 'x14', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7715.0, OCCURENCES: 1/1969
+SLACK([2, 7]) WRONG TASKS NUMBER['x11', 'x14', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -7703.0, OCCURENCES: 1/1970
+SLACK([7, 3]) WRONG TASKS NUMBER['x1', 'x16', 'x17', 'x3', 'x6'], COST: 28.0, TIME: [12.0, 13.0], DEADLINE: 19, ENERGY: -7684.0, OCCURENCES: 1/1971
+SLACK([3, 7]) WRONG TASKS NUMBER['x1', 'x10', 'x12', 'x14', 'x17', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 39.0, TIME: [9.0, 17.0], DEADLINE: 19, ENERGY: -7673.0, OCCURENCES: 1/1972
+SLACK([12, 4]) ['x0', 'x10', 'x12', 'x16', 'x5', 'x6', 'x7', 'x8'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -7658.0, OCCURENCES: 1/1973
+DEADLINE SLACK([5, 6]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x2', 'x5', 'x6', 'x7', 'x9'], COST: 50.0, TIME: [10.0, 25.0], DEADLINE: 19, ENERGY: -7638.0, OCCURENCES: 1/1974
+SLACK([1, 8]) WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x14', 'x16', 'x2', 'x4', 'x7', 'x9'], COST: 32.0, TIME: [5.0, 17.0], DEADLINE: 19, ENERGY: -7624.0, OCCURENCES: 1/1975
+SLACK([8, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x12', 'x16', 'x17', 'x4', 'x6', 'x7', 'x9'], COST: 45.0, TIME: [14.0, 15.0], DEADLINE: 19, ENERGY: -7611.0, OCCURENCES: 1/1976
+SLACK([2, 8]) WRONG TASKS NUMBER['x0', 'x10', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7586.0, OCCURENCES: 1/1977
+SLACK([8, 2]) WRONG TASKS NUMBER['x0', 'x10', 'x11', 'x12', 'x16', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7586.0, OCCURENCES: 1/1978
+SLACK([0, 13]) ['x0', 'x12', 'x13', 'x16', 'x17', 'x5', 'x6', 'x7', 'x9'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -7586.0, OCCURENCES: 1/1979
+SLACK([4, 8]) WRONG TASKS NUMBER['x0', 'x11', 'x12', 'x14', 'x15', 'x4', 'x5', 'x6', 'x7'], COST: 46.0, TIME: [12.0, 15.0], DEADLINE: 19, ENERGY: -7490.0, OCCURENCES: 1/1980
+DEADLINE SLACK([2, 9]) WRONG TASKS NUMBER['x11', 'x12', 'x15', 'x16', 'x17', 'x2', 'x3', 'x5', 'x9'], COST: 25.0, TIME: [10.0, 21.0], DEADLINE: 19, ENERGY: -7471.0, OCCURENCES: 1/1981
+SLACK([6, 7]) WRONG TASKS NUMBER['x10', 'x12', 'x14', 'x16', 'x17', 'x2', 'x5', 'x7', 'x8'], COST: 28.0, TIME: [4.0, 15.0], DEADLINE: 19, ENERGY: -7468.0, OCCURENCES: 1/1982
+DEADLINE SLACK([2, 14]) ['x0', 'x10', 'x12', 'x15', 'x16', 'x2', 'x3', 'x5'], COST: 31.0, TIME: [16.0, 27.0], DEADLINE: 19, ENERGY: -7345.0, OCCURENCES: 1/1983
+SLACK([14, 2]) ['x0', 'x1', 'x10', 'x11', 'x12', 'x16', 'x3', 'x6', 'x9'], COST: 34.0, TIME: [18.0, 19.0], DEADLINE: 19, ENERGY: -7342.0, OCCURENCES: 1/1984
+SLACK([0, 10]) WRONG TASKS NUMBER['x1', 'x11', 'x14', 'x15', 'x2', 'x4', 'x5', 'x7', 'x9'], COST: 39.0, TIME: [9.0, 17.0], DEADLINE: 19, ENERGY: -7337.0, OCCURENCES: 1/1985
+SLACK([0, 10]) WRONG TASKS NUMBER['x10', 'x14', 'x16', 'x17', 'x3', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 18.0], DEADLINE: 19, ENERGY: -7327.0, OCCURENCES: 1/1986
+SLACK([5, 9]) WRONG TASKS NUMBER['x0', 'x12', 'x5', 'x6', 'x8'], COST: 26.0, TIME: [7.0, 10.0], DEADLINE: 19, ENERGY: -7302.0, OCCURENCES: 1/1987
+SLACK([2, 1]) WRONG TASKS NUMBER['x0', 'x1', 'x10', 'x11', 'x15', 'x17', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 15.0], DEADLINE: 19, ENERGY: -7287.0, OCCURENCES: 1/1988
+SLACK([3, 1]) ['x0', 'x1', 'x12', 'x14', 'x17', 'x5', 'x7', 'x9'], COST: 25.0, TIME: [13.0, 9.0], DEADLINE: 19, ENERGY: -7271.0, OCCURENCES: 1/1989
+SLACK([2, 2]) WRONG TASKS NUMBER['x0', 'x1', 'x11', 'x15', 'x16', 'x4', 'x5', 'x6', 'x7'], COST: 49.0, TIME: [15.0, 15.0], DEADLINE: 19, ENERGY: -7263.0, OCCURENCES: 1/1990
+SLACK([3, 2]) ['x0', 'x11', 'x12', 'x16', 'x4', 'x6', 'x7', 'x9'], COST: 42.0, TIME: [11.0, 15.0], DEADLINE: 19, ENERGY: -7230.0, OCCURENCES: 1/1991
+SLACK([1, 15]) ['x10', 'x11', 'x13', 'x14', 'x17', 'x4', 'x5', 'x6', 'x7', 'x9'], COST: 40.0, TIME: [6.0, 9.0], DEADLINE: 19, ENERGY: -7128.0, OCCURENCES: 1/1992
+DEADLINE SLACK([11, 2]) WRONG TASKS NUMBER['x2', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9'], COST: 52.0, TIME: [6.0, 21.0], DEADLINE: 19, ENERGY: -7124.0, OCCURENCES: 1/1993
+SLACK([5, 2]) ['x0', 'x10', 'x14', 'x16', 'x4', 'x5', 'x7', 'x9'], COST: 30.0, TIME: [12.0, 11.0], DEADLINE: 19, ENERGY: -7114.0, OCCURENCES: 1/1994
+SLACK([5, 3]) WRONG TASKS NUMBER['x10', 'x11', 'x12', 'x14', 'x15', 'x5', 'x6', 'x8'], COST: 20.0, TIME: [1.0, 4.0], DEADLINE: 19, ENERGY: -7084.0, OCCURENCES: 1/1995
+SLACK([3, 15]) ['x0', 'x10', 'x11', 'x13', 'x15', 'x17', 'x5', 'x6', 'x7'], COST: 38.0, TIME: [10.0, 13.0], DEADLINE: 19, ENERGY: -7066.0, OCCURENCES: 1/1996
+SLACK([6, 0]) ['x1', 'x10', 'x11', 'x14', 'x15', 'x5', 'x6', 'x7'], COST: 35.0, TIME: [7.0, 7.0], DEADLINE: 19, ENERGY: -7053.0, OCCURENCES: 1/1997
+SLACK([11, 4]) WRONG TASKS NUMBER['x11', 'x12', 'x14', 'x17', 'x4', 'x5', 'x6', 'x8', 'x9'], COST: 28.0, TIME: [3.0, 6.0], DEADLINE: 19, ENERGY: -7052.0, OCCURENCES: 1/1998
+SLACK([13, 1]) WRONG TASKS NUMBER['x10', 'x15', 'x16', 'x17', 'x3', 'x4', 'x5', 'x8'], COST: 21.0, TIME: [12.0, 11.0], DEADLINE: 19, ENERGY: -6795.0, OCCURENCES: 1/1999
+SLACK([9, 4]) ['x1', 'x10', 'x12', 'x13', 'x5', 'x6', 'x7', 'x8'], COST: 35.0, TIME: [7.0, 7.0], DEADLINE: 19, ENERGY: -6565.0, OCCURENCES: 1/2000
+[449, 288, 270, 131, 190, 79, 105, 26, 80, 19, 30, 34, 20, 14, 9, 7, 11, 50, 37, 30, 29, 24, 12, 6, 10, 9, 3, 4, 3, 0, 2, 1, 0, 4, 2, 2, 1, 0, 3, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]

@@ -1,0 +1,13 @@
+P=6 S=40
+2021-03-02 13:41:26,298 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:26,804 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:29,781 hybrid.flow INFO Loop Iteration(iterno=0, input_state_key=104220.0, output_state_key=-143196.0)
+2021-03-02 13:41:34,912 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:35,417 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:38,343 hybrid.flow INFO Loop Iteration(iterno=1, input_state_key=-143196.0, output_state_key=-143196.0)
+2021-03-02 13:41:45,594 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:46,115 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=1, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:48,401 hybrid.flow INFO Loop Iteration(iterno=2, input_state_key=-143196.0, output_state_key=-143196.0)
+2021-03-02 13:41:51,641 hybrid.flow INFO InterruptableTabuSampler Iteration(iterno=0, input_state_key=None, output_state_key=None)
+2021-03-02 13:41:54,389 hybrid.flow INFO Loop Iteration(iterno=3, input_state_key=-143196.0, output_state_key=-143196.0)
+DEADLINE SLACK([0, 0, 0, 2]) ['x16', 'x20', 'x21', 'x28', 'x30', 'x35', 'x36', 'x5', 'x6', 'x7', 'x8', 'x9'], COST: 780.0, TIME: [36.0, 50.0, 48.0, 62.0], DEADLINE: 60, ENERGY: -143196.0

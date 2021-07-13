@@ -53,7 +53,7 @@ stars = "\n*********************************************************************
 
 
 for S in [40]:
-    A, b, C, paths, tasks_number, machines_number, deadline = qubo_matrices_helpers.get_smaller_18_qubits_data(S)
+    A, b, C, paths, tasks_number, machines_number, deadline = qubo_matrices_helpers.get_18_qubits_data(S)
     real_qubits_number = tasks_number * machines_number
     for P in [6]:  # itertools.chain(range(3,13,3), range(17,35,5), range(45,76,15)):
         # SOLUTION
@@ -84,7 +84,7 @@ for S in [40]:
         cs_large = abs(maxval) if abs(maxval) > abs(minval) else abs(minval)
         cs = cs_large/4.0
         results_file = open("gurobiAllResults.txt", "a+")
-        for chain_strength in [18000.0]:  # in range(100, 60000000, 8000000000):
+        for chain_strength in [18000]:  # in range(100, 60000000, 8000000000):
             params_string = "P={} S={} chain_strength={}\n".format(P, S, chain_strength)
             print(params_string)
             tQ = dwave.embedding.embed_qubo(Q, embedding, chimera_graph(16), chain_strength=chain_strength)
@@ -97,7 +97,7 @@ for S in [40]:
             # for s in sampling_result.data():
             #     print("{}, {}, {}".format(ones_from_sample(s.sample), s.energy, s.num_occurrences))
             # raise Exception()
-            # sampling_result = response = DWaveSampler().sample_qubo(tQ, num_reads=100, auto_scale=True, annealing_time=8, postprocess="optimization")
+            # sampling_result = response = DWaveSampler(solver='DW_2000Q_6').sample_qubo(tQ, num_reads=2000, auto_scale=True, annealing_time=8, postprocess="optimization")
             sampling_result = qubo_matrices_helpers.solve_dict_with_gurobi(tQ)
             # TODO try QBSolv()
             # CHECK FOR NOT EMBEDDED PROBLEM

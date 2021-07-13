@@ -74,15 +74,14 @@ for num, arr in enumerate(emb_numbers):
 
 tQ = dwave.embedding.embed_qubo(Q, embedding, chimera_graph(16), chain_strength=7.8)
 
+print(tQ)
 response = DWaveSampler().sample_qubo(tQ, num_reads=200)
 
 for s in list(response.data()):
     print(ones_from_sample(s.sample), "Energy: ", s.energy, "Occurrences: ", s.num_occurrences)
-#
-#
 
 print("UNEMBEDED RESULTS")
-source_bqm = dwavebinarycsp.dimod.BinaryQuadraticModel.from_qubo(Q)# (linear, quadratic, 0, Vartype.BINARY)
+source_bqm = dwavebinarycsp.dimod.BinaryQuadraticModel.from_qubo(Q)  # (linear, quadratic, 0, Vartype.BINARY)
 suma = 0
 for i, val in enumerate(dwave.embedding.unembed_sampleset(response, source_bqm=source_bqm, embedding=embedding)):
     suma += list(response.data())[i].num_occurrences
